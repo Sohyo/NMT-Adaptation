@@ -1,0 +1,15 @@
+cffi==1.14.2
+Cython==0.29.21
+future==0.18.2
+numpy==1.19.1
+opustools==0.0.54
+opustools-pkg==0.0.52
+pandas==1.1.2
+pkg-resources==0.0.0
+pycparser==2.20
+python-dateutil==2.8.1
+pytz==2020.1
+six==1.15.0
+subword-nmt==0.3.7
+torch==1.6.0
+xmltodict==0.12.0
