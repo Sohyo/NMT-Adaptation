@@ -9,6 +9,7 @@ def get_src_trg_per_doc(root_dic, save_dir):
         arr2txt(src, save_dir + file + ".de")
         arr2txt(trg, save_dir + file + ".en")
 
+
 def main():
     # EMEA
     root_dir_EMEA = "/home/diego/PycharmProjects/my_fairseq/soyo/orig/EMEA_orig/xmlfiles_per_doc/"
@@ -23,9 +24,9 @@ def main():
     save_dir_JRC = "/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/JRC/"
 
     # Run everything
-    get_src_trg_per_doc(root_dir_EMEA, save_dir_EMEA)
+    # get_src_trg_per_doc(root_dir_EMEA, save_dir_EMEA)
     get_sorted_file_list(root_dir_GNOME, save_dir_GNOME)
-    get_sorted_file_list(root_dir_JRC, save_dir_JRC)
+    # get_sorted_file_list(root_dir_JRC, save_dir_JRC)
 
 
 if __name__ == "__main__":
