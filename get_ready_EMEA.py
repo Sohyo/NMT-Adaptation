@@ -1,15 +1,6 @@
-from os import listdir
-from os.path import isfile, join
-import os
-import sys
-# dir_path = os.path.dirname(os.path.realpath(__file__))
-# parent_dir_path = os.path.abspath(os.path.join(dir_path, os.pardir))
-# sys.path.insert(0, parent_dir_path)
 
-import prepare_datasets
-import split_xmlfiles_per_doc
 from util import get_sorted_file_list, arr2txt
-from prepare_datasets import split_into_src_trg
+from preprocess_datasets import split_into_src_trg
 
 
 def main():
