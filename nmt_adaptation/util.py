@@ -7,7 +7,7 @@ import re
 def get_sorted_file_list(files_path):
     xces_file_list = [f for f in listdir(files_path) if isfile(join(files_path, f))]
     # xces_file_list.sort(key=lambda f: int(f[:-4]))
-    xces_file_list.sort(key=lambda f: int(re. sub("\D", "", f)))
+    xces_file_list.sort(key=lambda f: int(re.sub("\D", "", f)))
     return xces_file_list
 
 
@@ -25,4 +25,5 @@ def arr2txt(arr, file_name):
 
 def join_arrays(source, target):
     join_arr = column_stack((source, target))
+    assert isinstance(join_arr, object)
     return join_arr
