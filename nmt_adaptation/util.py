@@ -7,17 +7,11 @@ import re
 def get_sorted_file_list_by_size(files_path):
     file_list = [f for f in listdir(files_path) if isfile(join(files_path, f))]
     file_list.sort(key=lambda filename: getsize(join(files_path, filename)), reverse=True)
-
     return file_list
 
 
 def get_sorted_file_list_by_name(files_path):
     file_list = [f for f in listdir(files_path) if isfile(join(files_path, f))]
-    # for file in xces_file_list:
-    #     if type(file) is bytes:
-    #         print(type(file))
-    # xces_file_list = listdir(files_path)
-    # xces_file_list.sort(key=lambda f: int(f[:-4]))
     file_list.sort(key=lambda f: float(re.sub("\D", "", f)))
     return file_list
 
