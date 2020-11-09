@@ -31,8 +31,8 @@ def generate_command_line(root_dir, directory):
 
 def main():
     root_dir = "/home/diego/Documents/thesis/NMT-Adaptation/data/orig/"
-    # datasets = ["EMEA", "GNOME", "JRC"]
-    datasets = ["GNOME", "JRC"]
+    datasets = ["EMEA_old", "GNOME", "JRC"]
+    #datasets = ["GNOME", "JRC"]
     for data in datasets:
         generate_command_line(root_dir, data)
 

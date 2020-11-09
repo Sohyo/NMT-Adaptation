@@ -28,8 +28,8 @@ def split_xcesfile(root_dir):
 
 def main():
     root_dir = "/home/diego/Documents/thesis/NMT-Adaptation/data/orig/"
-    #datasets = ["EMEA", "GNOME", "JRC"]
-    datasets = ["GNOME", "JRC"]
+    datasets = ["EMEA_old", "GNOME", "JRC"]
+
     for data in datasets:
         split_xcesfile(root_dir+data)
 

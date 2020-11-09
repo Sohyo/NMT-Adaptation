@@ -11,17 +11,17 @@ def get_src_trg_per_doc(root_dic, save_dir):
 
 
 def main():
-    # EMEA
+    # EMEA_old
     root_dir_EMEA = "/home/diego/PycharmProjects/my_fairseq/soyo/orig/EMEA_orig/xmlfiles_per_doc/"
-    save_dir_EMEA = "/data/custom_data/EMEA/"
+    save_dir_EMEA = "/data/temp_custom_data/EMEA_old/"
 
     # GNOME
     root_dir_GNOME = "/data/orig/GNOME/xmlfiles_per_doc/"
-    save_dir_GNOME = "/data/custom_data/GNOME/"
+    save_dir_GNOME = "/data/temp_custom_data/GNOME/"
 
     # JRC
     root_dir_JRC = "/data/orig/JRC/xmlfiles_per_doc/"
-    save_dir_JRC = "/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/JRC/"
+    save_dir_JRC = "/data/temp_custom_data/JRC/"
 
     # Run everything
     # get_src_trg_per_doc(root_dir_EMEA, save_dir_EMEA)
