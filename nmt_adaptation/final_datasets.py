@@ -38,34 +38,34 @@ def main():
     gnome = NMT_dataset(name="GNOME")
     jrc = NMT_dataset(name="JRC")
 
-    # emea.split_into_each_docs(emea.orig_dir)
-    # gnome.split_into_each_docs(gnome.orig_dir)
-    # jrc.split_into_each_docs(jrc.orig_dir)
-    #
-    # emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
-    # for file in emea_files:
-    #     emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
-    #
-    # gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
-    # for file in gnome_files:
-    #     gnome.split_into_src_trg(gnome.orig_dir, file, gnome.temp_dir)
-    #
-    # jrc_files = get_sorted_file_list_by_name(jrc.orig_dir + "xmlfiles_per_doc/")
-    # for file in jrc_files:
-    #     jrc.split_into_src_trg(jrc.orig_dir, file, jrc.temp_dir)
+    emea.split_into_each_docs(emea.orig_dir)
+    gnome.split_into_each_docs(gnome.orig_dir)
+    jrc.split_into_each_docs(jrc.orig_dir)
+
+    emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
+    for file in emea_files:
+        emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
+
+    gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
+    for file in gnome_files:
+        gnome.split_into_src_trg(gnome.orig_dir, file, gnome.temp_dir)
+
+    jrc_files = get_sorted_file_list_by_name(jrc.orig_dir + "xmlfiles_per_doc/")
+    for file in jrc_files:
+        jrc.split_into_src_trg(jrc.orig_dir, file, jrc.temp_dir)
 
     emea_doc_list = get_sorted_file_list_by_name(emea.temp_dir)
     gnome_doc_list = get_sorted_file_list_by_name(gnome.temp_dir)
     jrc_doc_list = get_sorted_file_list_by_name(jrc.temp_dir)
 
-    # for language in [jrc.src, jrc.trg]:
-    #     doc_in_datasets = []
-    #     doc_in_datasets = get_dataset(language, jrc.temp_dir, jrc.save_dir, doc_list=jrc_doc_list, doc_in_datasets=doc_in_datasets,
-    #                                   n_data=jrc.n_train, name_data="train")
-    #     doc_in_datasets = get_dataset(language, jrc.temp_dir, jrc.save_dir, doc_list=jrc_doc_list,
-    #                                   doc_in_datasets=doc_in_datasets, n_data=jrc.n_valid, name_data="valid")
-    #     get_dataset(language, jrc.temp_dir, jrc.save_dir, doc_list=jrc_doc_list, doc_in_datasets=doc_in_datasets,
-    #                 n_data=jrc.n_test,name_data="test")
+    for language in [jrc.src, jrc.trg]:
+        doc_in_datasets = []
+        doc_in_datasets = get_dataset(language, jrc.temp_dir, jrc.save_dir, doc_list=jrc_doc_list, doc_in_datasets=doc_in_datasets,
+                                      n_data=jrc.n_train, name_data="train")
+        doc_in_datasets = get_dataset(language, jrc.temp_dir, jrc.save_dir, doc_list=jrc_doc_list,
+                                      doc_in_datasets=doc_in_datasets, n_data=jrc.n_valid, name_data="valid")
+        get_dataset(language, jrc.temp_dir, jrc.save_dir, doc_list=jrc_doc_list, doc_in_datasets=doc_in_datasets,
+                    n_data=jrc.n_test,name_data="test")
 
     for language in [emea.src, emea.trg]:
         doc_in_datasets = []
