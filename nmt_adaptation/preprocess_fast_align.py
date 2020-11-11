@@ -1,10 +1,11 @@
-from util import text2arr, arr2txt
+from util import text2arr
 
 
 def write_fast_align_input(array_de, array_en, save_directory, data):
     for line_num in range(len(array_de)):
         with open(save_directory+"_".join(map(str, ["fastalign"]+[data])), "+a") as txt_file:
-            txt_file.write(" ||| ".join(map(str, [array_de[line_num]] + [array_en[line_num]])) + "\n")
+            if (array_de[line_num] and array_en[line_num]) is not "":
+                txt_file.write(" ||| ".join(map(str, [array_de[line_num]] + [array_en[line_num]])) + "\n")
 
 
 def main():

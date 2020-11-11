@@ -76,20 +76,4 @@ class NMT_dataset:
 
         arr2txt(source[1:], temp_dir+file_name+".de")
         arr2txt(target[1:], temp_dir+file_name+".en")
-#
-# dir_EMEA = "/data/orig/EMEA/opus_everything"
-# dir_GNOME = "/data/orig/GNOME/opus_everything"
-# dir_JRC = "/data/orig/JRC/opus_everything"
-# save_xmlfiles_per_doc_EMEA = "/home/diego/Documents/thesis/NMT-Adaptation/data/orig/EMEA/xmlfiles_per_doc/"
-#
-# doc_counts = 0
-# with open(dir_GNOME) as file:
-#     lines = []
-#     for line in file:
-#         doc_name = save_xmlfiles_per_doc_EMEA + str(doc_counts)
-#         if line.startswith('# de/'):
-#             doc_counts += 1
-#         else:
-#             with open(doc_name, "a+") as txt_file:
-#                 txt_file.write("".join(line) + "\n")
-#
+
