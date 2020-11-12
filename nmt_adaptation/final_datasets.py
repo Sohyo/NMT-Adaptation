@@ -38,21 +38,21 @@ def main():
     gnome = NMT_dataset(name="GNOME")
     jrc = NMT_dataset(name="JRC")
 
-    # emea.split_into_each_docs(emea.orig_dir)
-    # gnome.split_into_each_docs(gnome.orig_dir)
-    # jrc.split_into_each_docs(jrc.orig_dir)
-    #
-    # emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
-    # for file in emea_files:
-    #     emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
-    #
-    # gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
-    # for file in gnome_files:
-    #     gnome.split_into_src_trg(gnome.orig_dir, file, gnome.temp_dir)
-    #
-    # jrc_files = get_sorted_file_list_by_name(jrc.orig_dir + "xmlfiles_per_doc/")
-    # for file in jrc_files:
-    #     jrc.split_into_src_trg(jrc.orig_dir, file, jrc.temp_dir)
+    emea.split_into_each_docs(emea.orig_dir)
+    gnome.split_into_each_docs(gnome.orig_dir)
+    jrc.split_into_each_docs(jrc.orig_dir)
+
+    emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
+    for file in emea_files:
+        emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
+
+    gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
+    for file in gnome_files:
+        gnome.split_into_src_trg(gnome.orig_dir, file, gnome.temp_dir)
+
+    jrc_files = get_sorted_file_list_by_name(jrc.orig_dir + "xmlfiles_per_doc/")
+    for file in jrc_files:
+        jrc.split_into_src_trg(jrc.orig_dir, file, jrc.temp_dir)
 
     cleanup_datasets(emea.temp_dir, emea.new_dir)
     cleanup_datasets(gnome.temp_dir, gnome.new_dir)
