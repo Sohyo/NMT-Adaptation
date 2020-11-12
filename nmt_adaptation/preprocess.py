@@ -4,7 +4,8 @@ class NMT_dataset:
     def __init__(self, orig_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/orig/", name="EMEA",
                  src="de", trg="en", n_train=1000, n_valid=150, n_test=2000,
                  temp_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
-                 save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
+                 new_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
+                 final_save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
         """
         :param orig_dir:
         :param src:
@@ -21,7 +22,8 @@ class NMT_dataset:
         self.n_test = n_test
         self.name = name
         self.temp_dir = temp_dir+name+"/"
-        self.save_dir = save_dir+name+"/"
+        self.new_dir = new_dir+name+"/"
+        self.save_dir = final_save_dir+name+"/"
 
     @staticmethod
     def get_doc_name_list(self, orig_dir):
