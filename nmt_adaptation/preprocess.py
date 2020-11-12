@@ -2,7 +2,7 @@ from util import arr2txt
 
 class NMT_dataset:
     def __init__(self, orig_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/orig/", name="EMEA",
-                 src="de", trg="en", n_train=10000, n_valid=2000, n_test=2000,
+                 src="de", trg="en", n_train=1000, n_valid=150, n_test=2000,
                  temp_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
                  save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
         """
