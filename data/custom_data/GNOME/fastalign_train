@@ -1,0 +1,1001 @@
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+translated ||| @ @ image : ' figures / accerciser.png ' ; md5 = b49b20da531257c9c88640c9bcf1eb29
+translated ||| @ @ image : ' figures / interface _ viewer.png ' ; md5 = aa1a5d030e67214010533e5f2e598faa
+translated ||| @ @ image : ' figures / event _ monitor.png ' ; md5 = 8e0aaf777e16d47ac5f8f3e7cf2035ac
+translated ||| @ @ image : ' figures / api _ browser.png ' ; md5 = 7e3b2481bf743644470726421cb5afb1
+translated ||| @ @ image : ' figures / script _ recorder.png ' ; md5 = a15027c852c58df789886f6aadf0130c
+Accerciser ||| Accerciser
+2006 ||| 2006
+2007 ||| 2007
+2008 ||| 2008
+IBM Corporation ||| IBM Corporation
+GNOME-Dokumentationsprojekt ||| GNOME Documentation Project
+Eitan ||| Eitan
+Isaacson ||| Isaacson
+Accerciser-Team ||| Accerciser team
+eitan@ascender.com ||| eitan @ ascender.com
+Peter ||| Peter
+Parente ||| Parente
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+Accerciser-Handbuch v0.2.0 ||| Accerciser Manual v0.2.0
+29. Juni 2007 ||| 2007-06-29
+eitan@ascender.com ||| eitan @ ascender.com
+Dieses Handbuch beschreibt Version 0.1.5 von Accerciser . ||| This manual describes version 0.1.5 of Accerciser .
+Accerciser ||| Accerciser
+Rückmeldungen ||| Feedback
+Accerciser GNOME-Seite für Rückmeldungen ||| Accerciser GNOME Feedback Page
+Accerciser ||| Accerciser
+Einführung ||| Introduction
+Accerciser AT-SPI Accerciser ||| Accerciser AT-SPI Accerciser
+Accerciser at-poke ||| Accerciser at-poke
+Erste Schritte ||| Getting Started
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Anwendungen ||| Applications
+Entwicklung Accerciser ||| Programming Accerciser
+Befehlszeile ||| Command line
+Eingabetaste ||| Return
+accerciser ||| accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Menüleiste ||| Menubar
+Die Menüleiste enthält Befehle zum Verwalten von Plugins , zum Verwalten und Benutzen von Lesezeichen , zum Aktualisieren der Barrierefreiheits-Baumansicht und für den Zugriff auf vorliegendes Hilfesystem . ||| The menu bar contains commands for managing plugins , managing and using bookmarks , refreshing the accessible tree view , and accessing this help system .
+Barrierefreiheits-Baumansicht ||| Accessible tree view
+Die Barrierefreiheits-Baumansicht ermöglicht Ihnen die Ansicht aller Accesibles , beginnend auf Desktop-Ebene . Die Auswahl eines Accessibles aktiviert es für die weitere Inspektion unter Verwendung der geladenen Plugins . ||| The accessible tree view allows to view all of the accessibles starting at the desktop level . Selecting an accessible makes it available for further inspection using the loaded plugins .
+Rechte Plugin-Ansicht ||| Right plugin view
+Accerciser ||| Accerciser
+Untere Plugin-Ansicht ||| Bottom plugin view
+Sie können Plugins aus diesem oder in diesen Bereich ziehen , wie beispielsweise in die rechte Plugin-Ansicht . ||| You can drag plugins to or from this area just like the right plugin view .
+Verwaltung der Plugin-Ansicht ||| Plugin View Management
+Accerciser Ansicht Einzelne Plugin-Ansicht Strg t Accerciser ||| Accerciser View Single plugin view Control t Accerciser
+Benutzung ||| Usage
+Accerciser ||| Accerciser
+Wählen Sie ein Accessible in der Baumansicht aus . ||| Select an accessible through the tree view .
+Verwenden Sie die Baumansicht , um sich durch die Hierarchie der Accessible-Objekte zu bewegen , beginnend auf Desktop-Ebene . Ausklappen eines Knotens macht die direkten Kind-Objekte sichtbar , während Einklappen diese wieder verbirgt . Jeder Knoten zeigt ein Symbol für die zugehörige Anwendung oder die zugehörige Widget-Funktion sowie den Accessible-Namen , falls verfügbar . Die zweite Spalte zeigt an , wie viele Knoten angezeigt werden , wenn das Objekt ausgeklappt wird . ||| Use the tree view to navigate the hierarchy of accessible objects rooted at desktop . Unfolding a tree node reveals its immediate children while folding it hides them . Each node shows an icon for its associated application or widget role and its accessible name , if available . The second column lists how many nodes will be shown if the item is unfolded .
+Verwendung von Lesezeichen ||| Using bookmarks
+Lesezeichen Lesezeichen hinzufügen Strg d ||| Bookmarks Add Bookmark ... Control d
+Lesezeichen für Accessibles in Accerciser sind durch einen Anwendungsnamen und einen » Pfad « zum Accessible-Lesezeichen in der internen Accessible-Hierarchie der Anwendung definiert . Wenn die Zielanwendung mehrere Zustände hat , zum Beispiel bei mehreren Frames in der obersten Ebene , könnte dieser Pfad inkorrekt sein . ||| Bookmarks to accessibles in Accerciser are defined by an application name and a " path " in the application 's internal accessible hierarchy to the bookmarked accessible . When the target application is in a different state ( ie. multiple top level frames ) the path might not be correct .
+Lesezeichen Lesezeichen bearbeiten ||| Bookmarks Edit Bookmarks ...
+Standard-Plugins ||| Default Plugins
+Accerciser ||| Accerciser
+Schnittstellenanzeige ||| Interface Viewer
+Dieses Plugin zeigt Informationen über die verfügbaren Schnittstellen für das in der Baumansicht ausgewählte Accessible an . Nicht unterstützte Schnittstellen werden ausgegraut dargestellt . Verschiedene Werkzeuge für die Ansicht und Steuerung einer Schnittstelle sind durch Ausklappen des jeweiligen Expanders verfügbar . ||| This plugin displays information about the available interfaces for the selected tree view accessible . Unsupported interfaces are grayed out . Various instruments for viewing and controlling an interface are available under each expander .
+Schnittstellen , die von dem ausgewählten Accessible unterstütz werden , sind anklickbar dargestellt . ||| Interfaces that are supported by the selected accessible are shown as sensitive .
+Ereignisüberwachung ||| Event Monitor
+Dieses Plugin überwacht die ausgewählten Ereignistypen aus dem in der Baumansicht gewählten Accessible , der in der Baumansicht gewählten Anwendung oder dem gesamten Desktop . ||| This plugin monitors the selected types of events from the selected tree view accessible , from the selected tree view application , or the entire desktop .
+Der untere Teil der Ereignisüberwachung ermöglicht Ihnen die Auswahl des Typs und der Quelle von Ereignissen . ||| The bottom part of the event monitor window allows you to pick the type and source of events .
+Strg Alt l ||| Control Alt l
+IPython-Konsole ||| IPython Console
+IPython Tab Eingabetaste acc t = acc.queryText( ) ||| IPython Tab Enter acc t = acc.queryText ( )
+API-Browser ||| API Browser
+Dieses Plugin zeigt die von dem in der Baumansicht gewählten Accessible unterstützten Schnittstellen , Methoden und Attribute . ||| This plugin shows the interfaces , methods , and attributes supported by the accessible selected in the tree view .
+Der API-Browser . ||| The API browser .
+Skript-Aufzeichner ||| Script recorder
+Accerciser ||| Accerciser
+Skript-Aufzeichner ||| Script Recorder
+Der Skript-Aufzeichner . ||| The script recorder .
+Schnellauswahl ||| Quick select
+Strg Alt a Accerciser Strg Alt t ||| Control Alt a Accerciser Control Alt t
+Validierung ||| Validation
+Dieses Plugin überprüft Anwendungen auf Barrierefreiheits-Probleme und erzeugt einen Report , der die Wichtigkeit und die Beschreibung der Probleme enthält . Der Report verknüpft Fehler , um zu dokumentieren , wie häufige Probleme behoben werden können . Dieses Plugin ist mit Test-Schemata erweiterbar , welche Regeln für die Überprüfung definieren . ||| This plugin checks applications for accessibility problems and generates a report including the severity and description of the problems . The report links errors to documentation about how to remedy common problems . The plugin is extensible with test schemas that define rules for validation .
+Überprüfen ||| Validate
+Hilfe ||| Help
+Einstellungen ||| Preferences
+Accerciser ||| Accerciser
+Plugin-Layout ||| Plugin Layout
+Accerciser Bearbeiten Einstellungen Einstellungen Plugins ||| Accerciser Edit Preferences Preferences Plugins
+Einstellungen ||| Preferences
+Globale Konfiguration der Tastenkürzel ||| Global Hotkey Configuration
+Accerciser Einstellungen Bearbeiten Einstellungen Globale Tastenkürzel ||| Accerciser Preferences Edit Preferences Preferences Global Hotkeys
+Accerciser ||| Accerciser
+Accerciser eitan@ascender.com Accerciser Accerciser ||| Accerciser eitan @ ascender.com Accerciser Accerciser
+Accerciser Dokument ||| document
+Weiterverbreitung und Benutzung im Binär- oder Quellcodeformat , mit oder ohne Änderungen , sind unter den Bedingungen der BSD-Lizenzt erlaubt . ||| Redistribution and use in source and binary forms , with or without modification , are permitted under the terms of the BSD License .
+Mario Blättermann ||| translator-credits
+Mario Blättermann ||| translator-credits
+external ref='figures/ api_browser.png ' md5='47cae67d29c708139b9740d06fd2521e'sort ||| external ref = ' figures / api _ browser.png ' md5 = ' 47cae67d29c708139b9740d06fd2521e '
+1. API-Browser-Plugin ||| 1 . API Browser Plugin
+Prüfen von Ansichten , Funktionen und Eigenschaften ||| Verifying interfaces , methods , and properties
+Eitan Isaacson ||| Eitan Isaacson
+Peter Parente ||| Peter Parente
+Aline Bessa ||| Aline Bessa
+Creative Commons Share Alike 3.0 ||| Creative Commons Share Alike 3.0
+API-Browser-Plugin ||| API Browser Plugin
+Wenn man ein barrierefreies Widget in der Anwendungs-Baumansicht auswählt , zeigt das API-Browser-Plugin ihre AT-SPI-Oberflächen sowie ihre Funktionen und Eigenschaften an . ||| Application Tree View
+Mit dem API-Browser-Plugin können Sie Oberflächen , Funktionen und auch Eigenschaften eines barrierefreien Widgets einer Anwendung prüfen . ||| The API Browser Plugin allows you to verify interfaces , methods , and properties of a target accessible widget in an application .
+Das Schnittstellenbrowser-Plugin ausführen ||| Running the API Browser Plugin
+Um das API-Browser-Plugin zu starten , wählen Sie ein barrierefreies Widget in der Anwendungs-Baumansicht aus . Durch einen Doppelklick darauf wird das Widget in der Oberfläche der Anwendung hervorgehoben , sodass Sie sicher sagen können , ob ein bestimmtes Widget jenes ist , nach dem Sie suchen . ||| To run the API Browser Plugin , select an accessible widget in the Application Tree View . Double-clicking a widget highlights it in the application 's interface , so you can be sure whether a certain widget were the one you were looking for .
+Danach können Sie eine der Widget-Oberflächen in der Auswahlbox auswählen . Alle öffentlichen Methoden der ausgewählten Oberfläche werden dann in der Spalte ganz links beim Plugin angezeigt . Alle öffentlichen Eigenschaften , mit ihren dazugehörigen Werten , werden dann in der Spalte ganz rechts beim Plugin gelistet . ||| After that , select one of the widget 's interfaces in the combobox . All public methods of the selected interface will be listed in the plugin 's leftmost column . All public properties , with their corresponding values , will be listed in the plugin 's rightmost column .
+Private Attribute verbergen ||| Hide Private Attributes
+sort ||| external ref = ' figures / tree _ view _ accerciser.png ' md5 = ' 08296541e21b96951e1f1b4d99ca130b '
+1. Anwendungs-Baumansicht ||| 1 . Application Tree View
+Erkunden der barrierefreien Hierarchie der Arbeitsumgebung ||| Exploring the accessible hierarchy of the desktop
+Anwendungs-Baumansicht ||| Application Tree View
+Accerciser Accerciser Accerciser ||| Accerciser Accerciser Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Beachten Sie , dass Knoten mit vielen Unterelementen viel Zeit zum Erweitern brauchen . ||| Be aware that nodes with many children take a long time to expand .
+Lesezeichen für Objekte in der Anwendungs-Baumansicht anlegen ||| Bookmarking items in the Application Tree View
+Accerciser Lesezeichen Lesezeichen hinzufügen Strg d ||| Accerciser Bookmarks Add Bookmark Ctrl d
+Accerciser Lesezeichen Lesezeichen verwalten ||| Accerciser Bookmarks Edit Bookmarks
+originalsort ||| external ref = ' figures / event _ monitor _ plugin.png ' md5 = ' 1ee2a1d281deefa5b401244b49ed9654 '
+4. Ereignisüberwachung-Plugin ||| 4 . Event Monitor Plugin
+Überwachung von barrierefreien Ereignissen in Echtzeit ||| Monitoring accessible events as they occur
+Ereignisüberwachung-Plugin ||| Event Monitor Plugin
+AT-SPI-Ereignisse Accerciser ||| AT-SPI events Accerciser Application Tree View
+Mit dem Ereignisüberwachung-Plugin können Sie AT-SPI-Ereignisse beobachten und diese mit einem barrierefreien Widget verknüpfen . ||| The Event Monitor Plugin allows you to view AT-SPI events and match them with accessible widgets .
+Das Ereignisüberwachung-Plugin ausführen ||| Running the Event Monitor Plugin
+Wenn Sie das Ereignisüberwachung-Plugin starten , sehen Sie ein Liste mit Ankreuzfeldern , welche für alle verschiedenen AT-SPI Ereignisklassen stehen , die das Plugin zur Verfügung stellt . ||| When you open the Event Monitor Plugin , you see a list of checkboxes representing all the different AT-SPI event classes covered by the plugin :
+document ||| document
+focus ||| focus
+mouse ||| mouse
+object ||| object
+terminal ||| terminal
+window ||| window
+Wenn Sie eine Klasse wählen , werden alle ihre Ereignistypen durch das Plugin überwacht . Die Klassen sind als Baumansicht dargestellt , d.h. Sie können Ihre Auswahl durch Erweiterung und Auswahl relevanter Ereignistypen verfeinern , welche Sie interessieren . ||| If you check a class , all of its event types will be monitored by the plugin . The classes are exposed as tree structures ; therefore , you can refine your selection by expanding them and checking only the event types you really care about .
+Alle auswählen Auswahl löschen ||| Select All Clear Selection
+Wenn Sie nur wenige Ereignistypen zur Überwachung auswählen , erhalten Sie eine übersichtlichere Ausgabe . ||| Selecting only a few event types per monitoring gives you a clearer output .
+Alles Ausgewählte Anwendung Ausgewähltes Accessible ||| Everything Selected application Selected accessible
+Ereignisse anzeigen Ereignisse anzeigen ||| Monitor Events Monitor Events
+Für jedes auftretende Ereignis zeigt das Ereignisüberwachung-Plugin Quelle und Anwendung an . Durch das Aktivieren des Links von einem der Objekte wird es in der Anwendungs-Baumansicht ausgewählen . ||| For each incoming event , the Event Monitor Plugin indicates the source and the application . Activating the link for either of these items will cause it to become selected in the Application Tree View .
+Speichern Leeren ||| Save Clear
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser Accerciser ||| Accerciser Accerciser
+Accerciser ||| Accerciser
+Accerciser Accerciser der FTP-Seite von gnome.org dem gnome.org GIT-Softwarebestand ||| Accerciser Accerciser the gnome.org FTP site the gnome.org GIT repository
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+cd accerciser ||| cd accerciser
+./ autogen.sh # oder ./ configure für die Erstinstallation ||| . / autogen.sh # or . / configure for first time installation
+make ||| make
+sudo make install # oder make install als Root ||| sudo make install # or make install as root
+Accerciser Accerciser ||| Accerciser Accerciser
+Accerciser ||| Accerciser
+Accerciser accerciser Eingabetaste ||| Accerciser accerciser Return
+Accerciser Anwendungs-Baumansicht Accerciser ||| Accerciser Application Tree View Accerciser
+3. Neue Plugins schreiben ||| 3 . Writing New Plugins
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser dieses Tutorial ||| Accerciser this tutorial
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+IPython Konsolen-Plugin ||| IPython Console Plugin
+Accerciser ||| Accerciser
+Erstellen eines Basis-Plugins ||| Creating a Base Plugin
+Schnellauswahl-Plugins Strg alt e ||| Quick Select Plugin ctrl alt e
+Zunächst verwenden wir folgende Import-Zeilen : ||| First off , the import lines we will use are :
+from accerciser.plugin import Plugin import gtk import pyatspi ||| from accerciser.plugin import Plugin import gtk import pyatspi
+Anschließend leiten wir eine neue Klasse aus der Basis-Plugin-Klasse ab und ordnen einige obligatorische Klassenattribute zu : ||| Next we will derive a new class from the Plugin base class , and assign some mandatory class attributes :
+class FocusSelect(Plugin ) : plugin_name = 'Focus Select ' plugin_description = 'Allows selecting last focused accessible . ' ||| class FocusSelect ( Plugin ) : plugin _ name = ' Focus Select ' plugin _ description = ' Allows selecting last focused accessible . '
+last_focused None ||| last _ focused None
+def init(self ) : pyatspi . Registry.registerEventListener(self.accEventFocusChanged , 'focus ' ) self.global_hotkeys = [ ( 'Inspect last focused accessible ' , self.inspectLastFocused , gtk.keysyms.e , gtk.gdk . CONTROL_MASK | gtk.gdk . MOD1_MASK ) ] self.last_focused = None ||| def init ( self ) : pyatspi.Registry.registerEventListener ( self.accEventFocusChanged , ' focus ' ) self.global _ hotkeys = [ ( ' Inspect last focused accessible ' , self.inspectLastFocused , gtk.keysyms.e , gtk.gdk.CONTROL _ MASK | gtk.gdk.MOD1 _ MASK ) ] self.last _ focused = None
+global_hotkeys ||| global _ hotkeys
+last_focused ||| last _ focused
+def accEventFocusChanged(self , event ) : if not self.isMyApp(event.source ) : self.last_focused = event.source ||| def accEventFocusChanged ( self , event ) : if not self.isMyApp ( event.source ) : self.last _ focused = event.source
+def inspectLastFocused(self ) : if self.last_focused : self.node.update(self.last_focused ) ||| def inspectLastFocused ( self ) : if self.last _ focused : self.node.update ( self.last _ focused )
+Erstellen eines Konsolen-Plugins ||| Creating a Console Plugin
+Accerciser Anwendungsbaumansicht ||| Accerciser Application Tree View
+Folgende Import-Zeilen werden benötigt : ||| The needed import lines are :
+from accerciser.plugin import ConsolePlugin import pyatspi ||| from accerciser.plugin import ConsolePlugin import pyatspi
+Dann definieren wir eine Klasse , mit dem Namen des Plugins und einer Beschreibung : ||| Then we add a class definition , with a plugin name and description :
+class PushButtonFocus(ConsolePlugin ) : plugin_name = 'Push Button Focus ' plugin_description = 'Print event when pushbutton get\\'s focus . ' ||| class PushButtonFocus ( ConsolePlugin ) : plugin _ name = ' Push Button Focus ' plugin _ description = ' Print event when pushbutton get \ \ ' s focus . '
+def init(self ) : pyatspi . Registry.registerEventListener(self.accEventFocusChanged , 'focus ' ) ||| def init ( self ) : pyatspi.Registry.registerEventListener ( self.accEventFocusChanged , ' focus ' )
+def accEventFocusChanged(self , event ) : if event.source.getRole( ) == pyatspi . ROLE_PUSH_BUTTON : self.appendText(str(event)+'\ ' ) ||| def accEventFocusChanged ( self , event ) : if event.source.getRole ( ) = = pyatspi.ROLE _ PUSH _ BUTTON : self.appendText ( str ( event ) + ' \ ' )
+Erstellen eines Ansicht-Plugins ||| Creating a Viewport Plugin
+import gtk from accerciser.plugin import ViewportPlugin ||| import gtk from accerciser.plugin import ViewportPlugin
+Danach folgt eine Klassendefinition mit Name und Beschreibung : ||| Next , a class definition , with a name and description :
+class Clicker(ViewportPlugin ) : plugin_name = 'Clicker ' plugin_description = 'Test the " click " action in relevant accessibles . ' ||| class Clicker ( ViewportPlugin ) : plugin _ name = ' Clicker ' plugin _ description = ' Test the " click " action in relevant accessibles . '
+def init(self ) : alignment = gtk . Alignment(0.5,0.5,0,0 ) self.click_button = gtk . Button('Click me ! ' ) alignment.add(self.click_button ) self.plugin_area.add(alignment ) self.click_button.connect('clicked ' , self.onClick ) self.show_all( ) ||| def init ( self ) : alignment = gtk.Alignment ( 0.5,0.5,0,0 ) self.click _ button = gtk.Button ( ' Click me ! ' ) alignment.add ( self.click _ button ) self.plugin _ area.add ( alignment ) self.click _ button.connect ( ' clicked ' , self.onClick ) self.show _ all ( )
+def accSupportedActions(self ) : try : ai = self.node.acc.queryAction( ) except NotImplementedError : action_names = [ ] else : action_names = [ ai.getName(i ) for i in xrange(ai.nActions ) ] return action_names ||| def accSupportedActions ( self ) : try : ai = self.node.acc.queryAction ( ) except NotImplementedError : action _ names = [ ] else : action _ names = [ ai.getName ( i ) for i in xrange ( ai.nActions ) ] return action _ names
+def onAccChanged(self , acc ) : has_click = 'click ' in self.accSupportedActions( ) self.click_button.set_sensitive(has_click ) ||| def onAccChanged ( self , acc ) : has _ click = ' click ' in self.accSupportedActions ( ) self.click _ button.set _ sensitive ( has _ click )
+def onClick(self , button ) : ai = self.node.acc.queryAction( ) action_names = [ ai.getName(i ) for i in xrange(ai.nActions ) ] ai.doAction(action_names.index('click ' ) ) _ ||| def onClick ( self , button ) : ai = self.node.acc.queryAction ( ) action _ names = [ ai.getName ( i ) for i in xrange ( ai.nActions ) ] ai.doAction ( action _ names.index ( ' click ' ) )
+originaltext ||| external ref = ' figures / accerciser-logo.png ' md5 = ' ccb260de40944187394405ae163757cf '
+Accerciserlink ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser Accerciser ||| Accerciser Accerciser
+Bevor Sie beginnen ||| Before You Begin
+Hilfe zur Barrierefreiheit ||| Universal Access Help
+Erste Schritte ||| Getting Started
+Prüfen der Barrierefreiheit einer Anwendung ||| Examining the Accessibility of an Application
+Themen für Fortgeschrittene_ ||| Advanced Topics
+sort ||| external ref = ' figures / interface _ viewer _ plugin.png ' md5 = ' c83c4113369ff2adc756dfd8614a48ed '
+2. Schnittstellenanzeige-Plugin ||| 2 . Interface Viewer Plugin
+Untersuchen Ihrer Umsetzung der Barrierefreiheit ||| Examining your accessibility implementation
+Schnittstellenanzeige-Plugin ||| Interface Viewer Plugin
+Anwendungsbaumansicht ||| Application Tree View
+Ein Menü mit dem Schnittstellenanzeige-Plugin untersuchen ||| Examining a Menu with the Interface Viewer Plugin
+Indem Sie ein Objekt in der Anwendungsbaumansicht auswählen , werden alle ihre AT-SPI-Schnittstellen im Schnittstellenanzeige-Plugin anklickbar angezeigt . Nicht unterstützte Schnittstellen werden grau dargestellt , z.B. die Anwendungs- und Zeichensatzschnittstelle im Bild oben . ||| Given a selected item in the Application Tree View , all of its AT-SPI interfaces will be shown as sensitive in the Interface Viewer Plugin . Those unsupported will appear grayed out , such as the Application and Collection interfaces in the figure above .
+Das Schnittstellenanzeige-Plugin ausführen ||| Running the Interface Viewer Plugin
+Anwendungsbaumansicht Accerciser ||| Application Tree View Accerciser
+_ ||| Value - This interface shows the selected item 's current value , minimum allowed value , maximum allowed value , and the minimum increment by which the value may be changed ( or zero if this value cannot be determined ) . The current value can be manually changed via a spin button .
+sort ||| external ref = ' figures / accerciser-view.png ' md5 = ' fe4edcab1458ebe903cc46878c53ee64 '
+1. Was ist Accerciser ? ||| 1 . What is Accerciser ?
+Ein Untersucher für interaktive Barrierfreiheit ||| An interactive accessibility explorer
+Accerciser ||| Accerciser
+Accerciser Accerciser ||| Accerciser Accerciser
+Accerciser Anwendungsbaumansicht Accerciser Strg t Strg t ||| Accerciser Application Tree View Accerciser ctrl t ctrl t
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Accerciser Accerciser Accerciser ||| Accerciser Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Schnittstellenanzeige-Plugin ||| Interface Viewer
+AT-SPI-Überprüfungsplugin ||| AT-SPI Validator
+Ereignisüberwachungs-Plugin ||| Event Monitor
+Schnellauswahl-Plugin Accerciser ||| Quick Select Accerciser
+API-Browser-Plugin ||| API Browser
+IPython-Konsole-Plugin ||| IPython Console
+Informationen über Barrierefreiheit ||| More about Accessibility
+Barrierefreiheit ist einer der Grundwerte , welche alle Aspekte einer Arbeitsumgebung betreffen sollte . Um das in GNOME zu erreichen , wurden einige Bibliotheken entwickelt , wie z.B. ATK und AT-SPI . Obwohl eigentlich in GNOME beheimatet , werden diese Bibliotheken nun auch bei anderen Arbeitsumgebungen verwendet . Um mehr über die Barrierefreiheitsbibliotheken für GNU/ UNIX-Systeme zu erfahren , können Sie folgende Seite besuchen : ||| Accessibility is a core value that should touch all aspects of a Desktop Environment . To help achieve it in GNOME , some libraries were developed , such as ATK and AT-SPI . Though originated in GNOME , these libraries are now also used in other Desktop Environments . To learn more about Accessibility Libraries for GNU / UNIX systems , you can consult :
+_ ||| GNOME Accessibility Project
+sort ||| external ref = ' figures / IPython _ plugin.png ' md5 = ' 4e25a8b12536302b54f4ea31e2d142c9 '
+2. IPython-Plugin ||| 2 . IPython Plugin
+Falls alles andere scheitert ||| When all else fails
+IPython-Konsole-Plugin ||| IPython Console Plugin
+Anwendungsbaumansicht ||| Application Tree View
+Das IPython-Konsole-Plugin ausführen ||| Running the IPython Console Plugin
+Um das IPyton-Konsolen-Plugin zu starten , wählen Sie eines der barrierefreien Objekte in der Anwendungsbaumansicht aus - entweder eine Anwendung oder ein Widget . Im Plugin ist das ausgewählte Objekt dann über die Variable » acc « erreichbar . ||| To run the IPython Console Plugin , select one of the accessible items listed in the Application Tree View - either an application or a widget . In the plugin , the selected item will correspond to the variable ' acc ' .
+Tabulatortaste ||| Tab
+Ausgewählte Objekte mit dem IPyton-Konsolen-Plugin untersuchen ||| Investigating selected items with the IPython Console Plugin
+Mit dem IPyton-Konsolen-Plugin können Sie Funktionen , Konstanten und Eigenschaften eines ausgewählten Objekts in der Anwendungsbaumansicht erforschen . ||| The IPython Console Plugin lets you investigate methods , constants , and properties related to a selected item in the Application Tree View .
+help(acc ) ||| help ( acc )
+_ ||| external ref = ' figures / accerciser _ preferences.png ' md5 = ' 35df6feb4a5dfc905331b45390783ad5 '
+_ ||| external ref = ' figures / plugins.png ' md5 = ' aa997acc25c59cf82a788bb8a97f8654 '
+_ ||| external ref = ' figures / global-hotkeys.png ' md5 = ' e624ecfca646f771d03ea3feed4a5dcb '
+sort ||| external ref = ' figures / highlighting.png ' md5 = ' a7eeb359d726fecba85b13b92a41b919 '
+4. Einstellungen ||| 4 . Preferences
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Strg p Bearbeiten ||| ctrl p Edit Preferences
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Einrichten von Plugins ||| Configuring plugins
+Accerciser ||| Accerciser
+Indem Sie auf ein Plugin mit der rechten Maustaste klicken , können Sie seine Position festlegen : » Oberes Fenster « , » Unteres Fenster « und » Neues Fenster « . Wenn Sie » Neues Fenster « auswählen , erstellen Sie ein neues Fenster für das Plugin . ||| Right-clicking on any given plugin allows you to choose its location : " Top Panel " , " Bottom Panel " , and " New View " . Selecting " New View " creates a new window for the plugin .
+Einstellungen für Plugins ||| Configuring plugins ' preferences
+Accerciser ||| Accerciser
+Sie können den Einstellungsdialog umgehen , indem Sie ein Plugin von einem an einen anderen Ort ziehen . ||| You may bypass the Preferences dialog by using drag and drop to move a plugin from a location to another .
+Einrichten globaler Tastenkürzel ||| Configuring global hotkeys
+Accerciser Schnellauswahl-Plugin Strg Alt Umschalttaste ||| Accerciser Quick Select Plugin ctrl alt shift
+Einstellungen für globale Tastenkürzel ||| Configuring global hotkeys ' preferences
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Einstellungen für Widget-Hervorhebungen ||| Configuring widget 's highlighting
+Accerciser Strg Alt / ||| Accerciser ctrl alt /
+Einstellungen für Hervorhebungen ||| Configuring highlighting preferences
+Accerciser ||| Accerciser
+5. Schnellauswahl-Plugin ||| 5 . Quick Select Plugin
+Das gewünschte Objekt lokalisieren ||| Locating the object you need
+Schnellauswahl-Plugin ||| Quick Select Plugin
+Accerciser Anwendungsbaumansicht Accerciser ||| Accerciser Application Tree View Accerciser
+Strg alt a Strg alt / ||| ctrl alt a ctrl alt /
+sort ||| external ref = ' figures / validator _ report.png ' md5 = ' a21bc11a8fc1f8d7976d7ea8a3dc80d2 '
+3. Das Standardüberprüfungs-Plugin ||| 3 . Validator Default Plugin
+So prüfen Sie die Barrierefreiheit einer Anwendung ||| Testing an application for accessibility
+Das AT-SPI-Überprüfung-Plugin ||| AT-SPI Validator Plugin
+Das AT-SPI Überprüfung-Plugin erstellt einen Bericht Problem der Barrierefreiheit in Bezug auf die Zielanwendung . Zu jedem Fehler stellt der Bericht den Schweregrad des Fehlers sowie eine kurze Beschreibung zur Verfügung . ||| The AT-SPI Validator Plugin generates a report with accessibility issues related to a target application . For each error , the report includes the severity level and a brief description .
+Das AT-SPI Überprüfung-Plugin erstellt nützliche Berichte , um die Barrierefreiheit einer Zielanwendung zu überprüfen . ||| The AT-SPI Validator Plugin generates useful reports for verifying the accessibility of a target application .
+Das AT-SPI Überprüfung-Plugin ausführen ||| Running the AT-SPI Validator Plugin
+Um das AT-SPI Überprüfung-Plugin auszuführen , wählen Sie ein Objekt in der Anwendungsbaumansicht . Das Plugin wird einen Bericht erstellen , in welchem es das ausgewählte Objekt und alle seiner Unteranwendungen in der Baumhierarchie beachtet . ||| To run the AT-SPI Validator Plugin , select an item in the Application Tree View . The validator will generate the report with respect to the selected item and all of its descendant widgets in the tree hierarchy .
+Überprüfen Überprüfen ||| Validate Validate
+Anwendungsbaumansicht ||| Application Tree View
+Speichern Leeren ||| Save Clear
+Hilfe ||| Help
+eitan@ascender.com ||| eitan @ ascender.com
+pparent@us.ibm.com ||| pparent @ us.ibm.com
+alibezz@gmail.com ||| alibezz @ gmail.com
+make ||| make
+Mario Blättermann ||| translator-credits
+external ref='figures/ api_browser.png ' md5='47cae67d29c708139b9740d06fd2521e'sort ||| external ref = ' figures / api _ browser.png ' md5 = ' 47cae67d29c708139b9740d06fd2521e '
+1. API-Browser-Plugin ||| 1 . API Browser Plugin
+Prüfen von Ansichten , Funktionen und Eigenschaften ||| Verifying interfaces , methods , and properties
+Eitan Isaacson ||| Eitan Isaacson
+Peter Parente ||| Peter Parente
+Aline Bessa ||| Aline Bessa
+Creative Commons Share Alike 3.0 ||| Creative Commons Share Alike 3.0
+API-Browser-Plugin ||| API Browser Plugin
+Wenn man ein barrierefreies Widget in der Anwendungs-Baumansicht auswählt , zeigt das API-Browser-Plugin ihre AT-SPI-Oberflächen sowie ihre Funktionen und Eigenschaften an . ||| Application Tree View
+Mit dem API-Browser-Plugin können Sie Oberflächen , Funktionen und auch Eigenschaften eines barrierefreien Widgets einer Anwendung prüfen . ||| The API Browser Plugin allows you to verify interfaces , methods , and properties of a target accessible widget in an application .
+Das Schnittstellenbrowser-Plugin ausführen ||| Running the API Browser Plugin
+Um das API-Browser-Plugin zu starten , wählen Sie ein barrierefreies Widget in der Anwendungs-Baumansicht aus . Durch einen Doppelklick darauf wird das Widget in der Oberfläche der Anwendung hervorgehoben , sodass Sie sicher sagen können , ob ein bestimmtes Widget jenes ist , nach dem Sie suchen . ||| To run the API Browser Plugin , select an accessible widget in the Application Tree View . Double-clicking a widget highlights it in the application 's interface , so you can be sure whether a certain widget were the one you were looking for .
+Danach können Sie eine der Widget-Oberflächen in der Auswahlbox auswählen . Alle öffentlichen Methoden der ausgewählten Oberfläche werden dann in der Spalte ganz links beim Plugin angezeigt . Alle öffentlichen Eigenschaften , mit ihren dazugehörigen Werten , werden dann in der Spalte ganz rechts beim Plugin gelistet . ||| After that , select one of the widget 's interfaces in the combobox . All public methods of the selected interface will be listed in the plugin 's leftmost column . All public properties , with their corresponding values , will be listed in the plugin 's rightmost column .
+Private Attribute verbergen ||| Hide Private Attributes
+sort ||| external ref = ' figures / tree _ view _ accerciser.png ' md5 = ' 08296541e21b96951e1f1b4d99ca130b '
+1. Anwendungs-Baumansicht ||| 1 . Application Tree View
+Erkunden der barrierefreien Hierarchie der Arbeitsumgebung ||| Exploring the accessible hierarchy of the desktop
+Anwendungs-Baumansicht ||| Application Tree View
+Accerciser Accerciser Accerciser ||| Accerciser Accerciser Accerciser
+Accerciser ||| Accerciser
+Accerciser ||| Accerciser
+Beachten Sie , dass Knoten mit vielen Unterelementen viel Zeit zum Erweitern brauchen . ||| Be aware that nodes with many children take a long time to expand .
+Lesezeichen für Objekte in der Anwendungs-Baumansicht anlegen ||| Bookmarking items in the Application Tree View
+Accerciser Lesezeichen Lesezeichen hinzufügen Strg d ||| Accerciser Bookmarks Add Bookmark Ctrl d
+Accerciser Lesezeichen Lesezeichen verwalten ||| Accerciser Bookmarks Edit Bookmarks
+originalsort ||| external ref = ' figures / event _ monitor _ plugin.png ' md5 = ' 1ee2a1d281deefa5b401244b49ed9654 '
+4. Ereignisüberwachung-Plugin ||| 4 . Event Monitor Plugin
+Überwachung von barrierefreien Ereignissen in Echtzeit ||| Monitoring accessible events as they occur
+Ereignisüberwachung-Plugin ||| Event Monitor Plugin
+AT-SPI-Ereignisse Accerciser ||| AT-SPI events Accerciser Application Tree View
+Mit dem Ereignisüberwachung-Plugin können Sie AT-SPI-Ereignisse beobachten und diese mit einem barrierefreien Widget verknüpfen . ||| The Event Monitor Plugin allows you to view AT-SPI events and match them with accessible widgets .
+Das Ereignisüberwachung-Plugin ausführen ||| Running the Event Monitor Plugin
+Wenn Sie das Ereignisüberwachung-Plugin starten , sehen Sie ein Liste mit Ankreuzfeldern , welche für alle verschiedenen AT-SPI Ereignisklassen stehen , die das Plugin zur Verfügung stellt . ||| When you open the Event Monitor Plugin , you see a list of checkboxes representing all the different AT-SPI event classes covered by the plugin :
+document ||| document
+focus ||| focus
+mouse ||| mouse
+object ||| object
+terminal ||| terminal
+window ||| window
+Wenn Sie eine Klasse wählen , werden alle ihre Ereignistypen durch das Plugin überwacht . Die Klassen sind als Baumansicht dargestellt , d.h. Sie können Ihre Auswahl durch Erweiterung und Auswahl relevanter Ereignistypen verfeinern , welche Sie interessieren . ||| If you check a class , all of its event types will be monitored by the plugin . The classes are exposed as tree structures ; therefore , you can refine your selection by expanding them and checking only the event types you really care about .
+Alle auswählen Auswahl löschen ||| Select All Clear Selection
+Wenn Sie nur wenige Ereignistypen zur Überwachung auswählen , erhalten Sie eine übersichtlichere Ausgabe . ||| Selecting only a few event types per monitoring gives you a clearer output .
+Alles Ausgewählte Anwendung Ausgewähltes Accessible ||| Everything Selected application Selected accessible
