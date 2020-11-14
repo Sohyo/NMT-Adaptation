@@ -1,5 +1,6 @@
 from util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, cleanup_datasets
 from preprocess import NMT_dataset
+from nmt_dev import NMT_dev
 
 
 def get_dataset(language, temp_dir, save_dir, doc_list, doc_in_datasets, n_data, name_data):
@@ -42,21 +43,21 @@ def main():
     gnome.split_into_each_docs(gnome.orig_dir)
     jrc.split_into_each_docs(jrc.orig_dir)
 
-    emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
-    for file in emea_files:
-        emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
-
-    gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
-    for file in gnome_files:
-        gnome.split_into_src_trg(gnome.orig_dir, file, gnome.temp_dir)
-
-    jrc_files = get_sorted_file_list_by_name(jrc.orig_dir + "xmlfiles_per_doc/")
-    for file in jrc_files:
-        jrc.split_into_src_trg(jrc.orig_dir, file, jrc.temp_dir)
-
-    cleanup_datasets(emea.temp_dir, emea.new_dir)
-    cleanup_datasets(gnome.temp_dir, gnome.new_dir)
-    cleanup_datasets(jrc.temp_dir, jrc.new_dir)
+    # emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
+    # for file in emea_files:
+    #     emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
+    #
+    # gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
+    # for file in gnome_files:
+    #     gnome.split_into_src_trg(gnome.orig_dir, file, gnome.temp_dir)
+    #
+    # jrc_files = get_sorted_file_list_by_name(jrc.orig_dir + "xmlfiles_per_doc/")
+    # for file in jrc_files:
+    #     jrc.split_into_src_trg(jrc.orig_dir, file, jrc.temp_dir)
+    #
+    # cleanup_datasets(emea.temp_dir, emea.new_dir)
+    # cleanup_datasets(gnome.temp_dir, gnome.new_dir)
+    # cleanup_datasets(jrc.temp_dir, jrc.new_dir)
 
     emea_doc_list = get_sorted_file_list_by_name(emea.new_dir)
     gnome_doc_list = get_sorted_file_list_by_name(gnome.new_dir)
