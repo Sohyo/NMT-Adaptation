@@ -1,0 +1,453 @@
+1
+13 Using and managing categories for appointments , contacts , memos and tasks . # 1 2 3 1 2 5 6 8 9 7 11 9 13
+13 Kategorien für Termine , Kontakte , Notizen und Aufgaben verwenden und verwalten . # 4 5 3 0 6 7 10 8 12 0 11 0 13
+1
+84 Another way to group contacts , appointments , tasks and memos ( summarized by the term " objects " in the following text ) is to mark them as belonging to different categories . You can mark an object as being in several categories or no category at all . For example in your address book , you put a friend in the " Business " category because he works with you and the " Friends " category because he is a friend . # 4 5 6 4 12 4 7 8 11 12 13 14 10 0 15 10 20 10 20 15 18 0 15 24 27 18 39 26 33 58 0 0 33 35 37 37 39 39 39 44 36 51 40 44 41 43 58 0 0 46 0 49 51 52 53 53 59 47 0 54 55 56 57 61 63 61 73 64 65 0 66 66 70 72 74 77 76 73 78 79 82 80 81 83
+83 Eine andere Methode , wie Sie Kontakte , Termine , Aufgaben und Notizen ( im Folgenden unter dem Begriff » Objekte « zusammengefasst ) ordnen können , besteht darin , ihnen verschiedene Kategorien zuzuweisen . Sie können einem Objekt mehrere oder gar keine Kategorien zuordnen . Sie können zum Beispiel in Ihrem Adressbuch einen Freund in der Kategorie » Geschäftlich « einordnen , da er mit Ihnen arbeitet , und in die Kategorie » Freunde « , da er ein Freund ist . # 0 0 0 6 2 3 7 8 0 18 9 10 11 12 23 0 0 26 0 19 0 0 0 24 0 28 25 0 0 0 0 0 33 0 34 41 36 0 39 43 45 0 46 44 0 50 58 0 52 0 53 54 56 60 61 62 63 47 57 0 66 0 65 68 69 72 0 0 0 73 0 74 78 75 0 77 76 79 80 82 83 81 84
+1
+10 To mark an object as belonging to a category , # 1 3 3 3 4 8 9 9 7 11
+11 Um ein Objekt als zu einer Kategorie zugehörig zu markieren , # 1 0 4 5 0 0 9 6 8 0 10
+1
+10 Double-click the object to bring up the corresponding editor . # 1 5 3 5 6 8 9 11 12 14
+14 Klicken Sie doppelt auf das Objekt , damit das entsprechende Editor-Fenster geöffnet wird . # 1 0 3 0 4 5 0 6 7 0 8 9 0 10
+1
+20 Select the category from the list . You can select as many or as few categories as you like . # 1 3 4 5 5 7 9 11 11 10 13 12 0 13 15 14 17 18 17 20
+20 Wählen Sie die Kategorie aus der Liste aus . Sie können so viele Kategorien aussuchen , wie Sie möchten . # 1 0 2 3 5 0 6 0 7 10 9 12 14 16 15 0 19 18 0 20
+1
+10 Double-click any object to bring up th corresponding editor . # 1 3 3 9 7 10 11 12 14 15
+15 Klicken Sie doppelt auf ein beliebiges Objekt , um den entsprechenden Editor zu öffnen . # 1 0 3 0 0 0 5 0 4 6 7 8 0 9 10
+1
+12 Enter the new category in the entry box at the top . # 1 3 4 6 7 5 8 9 10 8 10 12
+12 Geben Sie den Namen der Kategorie in das Textfeld oben ein . # 1 0 2 3 6 4 5 10 8 11 0 12
+1
+10 Using an online WebDAV task list or memo list . # 1 1 2 2 3 4 3 5 4 6
+6 Eine Online-WebDAV-Aufgaben- oder -Notizenliste verwenden . # 2 4 7 9 8 10
+1
+17 To add such a task list or memo list to Evolution , perform the following steps : # 2 2 2 4 5 7 6 5 7 8 9 8 8 9 10 10 11
+11 So fügen Sie eine Aufgaben- oder Notizenliste zu Evolution hinzu : # 0 3 0 4 8 7 9 13 14 16 17
+1
+16 Choose if you want to be able to view the content also when being offline . # 1 4 2 4 6 0 7 8 0 6 11 8 13 15 15 17
+17 Wählen Sie , ob Sie den Inhalt auch sehen können wollen , wenn Sie offline sind . # 1 3 0 4 0 10 7 12 0 0 11 0 13 0 15 0 16
+1
+12 Adding and using more than one task list or memo list . # 1 2 3 6 6 6 8 9 10 10 9 11
+11 Aufgaben- und Notizenlisten hinzufügen und mehr als eine Liste verwenden . # 1 2 3 0 0 6 0 7 11 10 12
+1
+77 You can have multiple task or memo lists and choose which of your lists get displayed . For example , you might have tasks for work , tasks for home , and tasks for the singing club that you are a member of . The side bar lists those lists , and you can select or deselect any of the boxes next to them to show and hide the corresponding tasks or memos in your view . # 2 2 1 0 4 5 7 13 8 0 11 0 12 13 10 15 16 0 20 26 19 26 0 22 27 27 26 22 31 31 34 30 22 31 36 34 40 40 41 39 21 40 44 42 44 44 51 48 50 48 50 51 52 53 52 76 57 0 59 62 57 61 62 47 62 72 70 0 67 68 69 76 71 72 73 74 79
+79 Sie können mehrere Aufgaben- oder Notizenlisten verwenden und auswählen , welche Ihrer Listen angezeigt werden . So können Sie zum Beispiel Aufgaben für die Arbeit , für zu Hause und für den Gesangverein , in dem Sie Mitglied sind , haben . In der Seitenleiste werden diese Listen aufgelistet , und Sie können durch das Aus- und Abwählen der Ankreuzfelder neben den Namen entscheiden , ob die entsprechenden Aufgaben und Notizen in Ihrer Ansicht angezeigt oder verborgen werden . # 3 2 0 5 6 0 7 9 0 15 11 13 14 0 16 17 0 0 21 19 41 33 0 0 0 27 26 0 0 32 34 0 0 36 0 35 0 0 40 42 39 44 0 46 0 0 64 50 0 51 52 55 54 0 0 0 61 0 59 0 62 65 0 0 0 0 69 70 71 67 73 74 75 76 0 72 0 0 77
+1
+14 Tasks and memos from each task or memo list appear as different colors . # 2 3 4 0 5 6 7 8 8 9 11 12 13 14
+14 Die Aufgaben und Notizen jeder Aufgaben- oder Notizenliste erscheinen in einer anderen Farbe . # 0 1 2 3 5 6 7 9 10 0 11 12 13 14
+1
+18 You can also use lists that are not on your computer , such as on the internet . # 2 2 3 1 4 6 8 8 9 10 11 13 14 13 15 16 17 18
+18 Sie können auch Listen verwenden , die nicht auf Ihrem Rechner sind , etwa solche im Internet . # 4 2 3 5 0 6 0 8 9 10 11 0 14 13 15 16 17 18
+1
+9 On adding , editing , and deleting tasks . # 1 3 4 5 6 6 7 9 10
+10 Über das Hinzufügen , Bearbeiten und Löschen von Aufgaben . # 1 0 2 3 4 6 7 0 8 9
+1
+15 If you want to change a task that already exists in your task lists , # 1 2 2 3 5 6 4 7 9 9 10 11 13 13 15
+15 Wenn Sie eine Aufgabe ändern möchten , die bereits in Ihren Aufgabenlisten vorhanden ist , # 1 3 4 7 5 6 8 0 10 11 12 0 14 0 15
+1
+24 If you just want to quickly add a task by entering a summary you can directly enter it in the list of tasks . # 1 2 5 2 3 5 5 9 4 7 8 9 7 11 13 15 15 15 16 17 18 17 20 20
+20 Wenn Sie eine Aufgabe zügig per Zusammenfassung hinzufügen möchten , so geben Sie diese direkt in der Aufgabenliste ein . # 1 4 5 9 7 0 13 11 12 0 14 0 15 0 18 19 22 21 0 24
+1
+12 Evolution can be used to assign a task to multiple people . # 1 2 2 2 5 4 4 5 5 6 6 7
+7 Evolution kann Aufgaben mehreren Personen zuweisen . # 1 4 0 7 9 11 12
+1
+51 When you assign a task , you can specify the attendees in several categories , such as " chair " or " required " . When you save the task , each attendee is sent an email with the task information , which also gives them the option to respond . # 1 2 5 3 4 6 7 8 9 10 11 12 13 14 16 16 17 21 11 21 24 21 27 25 29 30 30 27 0 33 35 0 38 36 0 39 0 41 46 44 42 45 0 0 43 0 46 0 0 48 51
+51 Wenn Sie eine Aufgabe zuweisen , so können Sie die Teilnehmer in mehrere Kategorien einordnen , wie zum Beispiel als » Vorsitzender « oder » Benötigter Teilnehmer « . Wenn Sie eine Aufgabe speichern , wird jedem Teilnehmer eine E-Mail mit Informationen zur Aufgabe und der Möglichkeit zur Antwort geschickt . # 1 2 4 5 3 6 7 8 9 10 19 12 13 14 0 16 17 0 0 0 22 0 0 21 24 0 28 0 25 27 0 0 30 0 31 34 0 33 36 0 38 41 45 40 42 47 0 50 0 0 51
+1
+13 @ @ image : ' figures / search-icon.png ' ; md5 = cd4b82c84c628bfbbfa39d1e0d1eae89 # 1 1 1 1 2 2 2 2 3 3 3 4 4
+4 lokalisiert - verwendet original # 4 8 11 13
+1
+18 In the Tasks view , you can quickly search for tasks either by summary or by category . # 1 4 5 3 4 4 6 6 6 6 5 9 12 7 8 12 9 13
+13 Durchsuchen Sie zügig die Aufgaben nach Zusammenfassung oder Kategorie in der Aufgabenansicht . # 1 0 4 6 11 10 14 15 17 0 0 16 18
+1
+8 Select the search condition from the list . # 1 3 4 4 5 6 7 9
+9 Wählen Sie das Suchkriterium aus der Liste aus . # 1 0 2 4 5 6 7 0 8
+1
+7 Select the category from the list . # 1 3 4 5 6 7 9
+9 Wählen Sie die Kategorie aus der Liste aus . # 1 0 2 3 4 5 6 0 7
+1
+21 If you want to set several search conditions , you should use an Advanced search , which is described below . # 1 2 2 7 4 8 12 3 6 6 9 0 0 12 12 13 0 13 16 16 17
+17 Verwenden Sie die Erweiterte Suche , um mehrere Suchbedingungen festzulegen . Diese ist im Folgenden beschrieben . # 1 3 8 5 0 10 4 6 11 0 0 15 18 0 0 20 21
+1
+18 Select the condition from the dropdown list , and then type a search entry in the field . # 1 3 4 8 6 7 7 9 9 9 12 13 11 16 15 16 17 19
+19 Wählen Sie die Bedingung in der Auswahlliste aus und geben Sie danach einen Suchbegriff in das Feld ein . # 1 0 2 3 0 5 7 4 10 0 13 11 12 0 15 16 17 0 18
+1
+27 If you search for something rather often , you will prefer not to type it many times . In this case you can use saved searches . # 1 2 3 3 4 5 6 8 9 8 10 8 12 0 9 9 14 22 0 13 17 18 0 0 20 21 22
+22 Wenn Sie nach etwas Bestimmtem häufig suchen , so bietet es sich an , Tipparbeit zu sparen und gespeicherte Suchen einzusetzen . # 1 2 4 5 6 7 0 12 16 11 0 13 20 17 0 0 21 22 0 25 26 27
+1
+11 Edit the title or search conditions from the dialog box . # 1 3 4 5 5 6 7 9 8 10 11
+11 Ändern Sie den Titel oder die gewünschten Suchkriterien im Dialogfeld . # 1 0 2 3 5 6 7 9 8 10 11
+1
+11 On task and memo lists , searching , and categories . # 1 2 3 2 4 5 6 6 7 8 9
+9 Über Aufgaben- und Notizlisten , Suchvorgänge und Kategorien . # 1 4 3 5 6 8 9 10 11
+1
+14 To add another local task list to Evolution , perform the following steps : # 2 2 2 4 5 8 5 10 9 9 9 11 11 12
+12 Sie fügen wie folgt eine weitere lokale Aufgabenliste zu Evolution hinzu : # 0 3 0 4 7 0 0 6 11 8 13 14
+1
+15 The task list will be added to the list of task lists in Evolution . # 1 2 7 3 3 5 5 6 7 6 7 8 8 9 11
+11 Die Aufgabe wird daraufhin zu der Aufgabenliste in Evolution hinzugefügt . # 1 2 5 0 7 10 11 13 14 0 15
+1
+9 Options for displaying task completion and due dates . # 1 2 4 4 6 7 6 8 9
+9 Optionen für die Anzeige für Aufgabenabschlüsse und Fälligkeitsdaten . # 1 2 0 4 0 7 6 8 9
+1
+8 Select the color for tasks due today . # 1 2 3 4 5 6 8 9
+9 Wählt die Farbe für heute fällige Aufgabe aus . # 1 2 3 4 5 6 0 7 8
+1
+42 Select this option to have completed tasks hidden after a period of time measured in days , hours , or minutes . If you do not select this option , completed tasks remain in your task list , marked as complete . # 1 3 4 2 2 4 9 8 10 11 12 11 7 15 34 16 16 17 16 18 19 23 24 24 0 28 25 26 27 30 32 33 32 34 35 36 36 37 40 39 40 42
+42 Wählen Sie diese Option aus , wenn erledigte Aufgaben nach einer gewissen Anzahl von Tagen , Stunden oder Minuten verborgen werden sollen . Wenn Sie diese Option nicht auswählen , verbleiben erledigte Aufgaben in Ihrer Aufgabenliste und werden als erledigt markiert . # 1 5 2 6 0 0 13 8 7 9 12 11 0 0 14 19 18 20 21 0 0 0 22 24 27 28 29 26 0 30 0 33 32 34 35 37 38 0 40 41 0 42
+1
+10 Using an online CalDAV task list or memo list . # 1 1 2 2 2 4 3 4 4 5
+5 Eine CalDAV-Aufgaben- oder -Notizliste hinzufügen # 2 5 7 9 10
+1
+8 Enter your username and your email address . # 1 4 5 6 7 8 8 10
+10 Bitte geben Sie Ihren Benutzernamen und Ihre E-Mail-Adresse ein . # 1 0 0 2 3 4 5 7 0 8
+1
+10 Synchronize Evolution data with handheld devices and mobile phones . # 2 2 2 3 4 4 5 6 7 8
+8 Die Evolution-Daten mit Handheld-Geräten und Mobiltelefonen abgleichen . # 0 3 4 6 7 8 9 10
+1
+11 There are currently no " recommended instructions " for users . # 2 2 2 4 5 6 7 8 9 10 11
+11 Derzeit gibt es keine » empfohlenen Anweisungen « für Benutzer . # 0 3 0 4 5 6 7 8 9 10 11
+1
+55 To synchronize with a Palm OS device like the PalmPilot ( TM ) and the Handspring Visor several steps are needed : First , you need to enable synchronization . Second , your computer needs to recognize and access your handheld . Third , you should decide what sort of synchronization behavior you want . # 7 21 3 4 5 5 6 8 11 11 13 11 13 0 15 15 15 20 25 19 0 25 0 18 0 45 0 30 30 30 30 0 34 34 30 35 30 39 43 34 39 43 43 48 45 0 43 43 43 0 54 51 46 46 54
+54 Zum Abgleichen mit einem Palm OS-Gerät , wie zum Beispiel dem PalmPilot(TM ) oder dem Handspring Visor , sind mehrere Schritte notwendig . Erstens : Das Aktivieren des Datenabgleichs . Zweitens muss der Rechner das tragbare Gerät erkennen und darauf zugreifen können . Drittens müssen Sie entscheiden , was genau abgeglichen werden soll . # 0 0 3 4 6 7 1 8 0 0 12 0 13 0 17 0 0 24 20 18 2 0 0 0 22 0 0 0 0 37 0 0 0 40 36 0 0 0 41 0 0 0 49 0 45 54 0 44 0 0 52 0 0 55
+1
+19 Edit GNOME Pilot Synchronization ... / dev / pilot / dev / ttyS0 / dev / ttyUSB1 ttyUSB0 ttyUSB1 # 1 2 2 3 5 5 6 7 6 8 9 10 9 11 12 11 14 15 15
+15 Bearbeiten GNOME Pilot abgleichen / dev/ pilot / dev/ ttyS0 / dev/ ttyUSB1 ttyUSB0 ttyUSB1 # 1 3 4 0 6 9 8 10 13 12 16 15 0 17 19
+1
+21 Use the following procedure to synchronize the data on your Palm OS device with the data you store in Evolution . # 1 3 3 3 6 4 8 7 5 9 10 10 10 10 8 7 12 14 13 13 0
+15 Befolgen Sie folgende Schritte , um Daten zwischen Ihrem Palm OS-Gerät und Evolution abzugleichen : # 1 0 4 6 9 5 16 15 10 14 0 17 20 18 0
+1
+53 If you use Palm OS version 4.0 and have password protection turned on for your handheld device , you might encounter trouble synchronizing . If this happens , try turning off password protection on your handheld , synchronize it with your desktop computer , and then re-enable password protection on your handheld . # 1 2 2 3 3 6 6 8 0 10 10 10 17 30 31 10 3 13 16 24 16 27 27 20 21 22 27 24 27 27 27 29 29 17 31 29 35 39 25 40 42 43 42 44 45 48 43 51 51 44 42 51 52
+52 Falls Sie Palm OS Version 4.0 benutzen und der Passwortschutz aktiviert ist , so könnten Sie auf Probleme stoßen . Falls dies passiert , so stellen Sie den Passwortschutz für Ihr tragbares Gerät ab , gleichen Sie dessen Daten mit dem Rechner ab , und aktivieren Sie dann wieder den Passwortschutz . # 1 3 17 0 0 7 0 8 0 16 0 0 18 0 0 21 34 0 0 24 25 26 0 28 39 0 31 0 36 14 35 0 0 0 37 0 0 0 38 40 0 51 47 50 45 0 0 46 0 0 52 53
+1
+11 Now your Palm OS device will synchronize data with Evolution . # 1 3 2 3 4 4 5 5 6 7 9
+9 Nun sollte Ihr Palm-OS-Gerät Daten mit Evolution abgleichen . # 1 3 4 6 8 9 10 0 11
+1
+11 How to provide good information when tracking down a problem . # 1 1 2 4 5 3 7 7 8 9 10
+10 So liefern Sie wertvolle Informationen beim Analysieren eines Problems . # 2 3 6 4 5 0 8 9 10 11
+1
+24 As a first hint , error messages will be either displayed in the statusbar or between the tool bar and the search bar . # 1 2 3 3 5 4 5 6 5 7 5 8 9 10 11 12 12 13 15 14 16 15 15 17
+17 Als ein erster Hinweis werden Fehlermeldungen entweder in der Statuszeile oder zwischen Werkzeugleiste und Suchleiste angezeigt . # 1 2 4 6 11 8 10 12 13 14 15 17 18 20 23 21 24
+1
+9 On organizing and finding your data in Evolution . # 1 3 4 5 6 7 8 9 10
+10 Über das Organisieren und Auffinden Ihrer Daten in Evolution . # 1 0 2 3 4 5 6 7 8 9
+1
+8 On minimizing Evolution to the notification area . # 1 3 5 0 7 8 8 9
+9 Über das Minimieren von Evolution in das Benachrichtigungsfeld . # 1 0 2 0 3 0 5 7 8
+1
+9 On adding , editing , and deleting memos . # 1 2 3 4 5 5 6 8 9
+9 Über Hinzufügen , Bearbeiten und Löschen von Notizen . # 1 2 3 4 6 7 0 8 9
+1
+15 Currently there is no support for syncing memos with the Tomboy or Gnote applications . # 1 1 2 4 4 5 6 6 7 7 10 9 12 12 13
+13 Derzeit wird der Abgleich von Notizen mit Tomboy und Gnote nicht unterstützt . # 2 3 0 5 6 8 10 0 12 11 0 14 15
+1
+15 If you want to change a memo that already exists in your memo lists , # 1 1 2 4 3 10 8 6 3 8 6 0 8 10 11
+11 Wenn Sie bereits bestehende Notizen in der Notizliste ändern möchten , # 2 3 9 4 0 11 0 13 0 14 15
+1
+24 If you just want to quickly add a memo by entering a summary you can directly enter it in the list of memos . # 1 2 5 2 3 5 5 11 10 9 10 11 9 13 15 17 14 17 18 19 19 19 22 22
+22 Wenn Sie eine Notiz zügig durch Eingabe einer Zusammenfassung hinzufügen möchten , so geben Sie diese direkt in der Notizliste ein . # 1 4 5 0 7 0 0 0 13 11 12 0 14 17 15 0 18 19 22 0 0 24
+1
+72 Shared Memos are like mail messages except they are scheduled for a particular day and appear on the calendar for that date . You can use shared memos to show vacations , holidays , pay days , birthdays , and so on . Posted shared memos are placed in your Calendar on the date you specify . They are not placed in your Mailbox or in any other user 's Mailbox . # 1 2 3 7 6 6 7 7 3 14 9 10 7 14 15 17 0 16 0 9 0 20 22 24 24 23 25 26 0 47 31 31 31 31 31 31 33 33 35 15 35 35 39 0 41 42 43 0 47 48 0 0 47 20 52 52 51 51 53 54 0 55 56 48 57 55 0 61 0 57 48 64
+64 Gemeinsame Notizen sind im Prinzip Nachrichten , die für einen speziellen Tag geplant sind und im Kalender an diesem Datum erscheinen . Sie können gemeinsame Notizen zur Darstellung von Urlaub , Ferien , Zahltagen , Geburtstagen usw. verwenden . Beauftragte gemeinsame Notizen werden zum angegebenen Zeitpunkt in Ihren Kalender übertragen . Sie werden nicht in Ihrem oder einem Postfach eines anderen Benutzers erscheinen . # 1 2 9 0 0 6 13 0 20 12 0 0 0 14 40 18 16 0 0 54 0 23 26 25 27 28 0 0 0 0 36 0 38 0 42 0 0 0 43 0 45 46 47 0 0 0 53 71 0 0 58 56 59 60 66 63 70 0 0 0 68 0 0 72
+1
+17 Select the Organizer 's account name from the drop-down list given next to the Organizer field . # 1 3 4 4 4 5 7 8 9 9 11 10 11 11 14 12 16
+16 Wählen Sie den Kontonamen des Organisators aus der Auswahlliste neben dem Feld » Organisator « . # 1 0 2 5 6 0 7 8 10 12 14 16 0 15 0 17
+1
+19 In the To field , type a username , then press Enter . Repeat this for additional users . # 1 3 2 4 8 11 9 10 12 12 13 1 17 18 20 21 22 23 24
+24 Geben Sie im Feld » An : « einen Benutzernamen ein und drücken Sie die Eingabetaste . Wiederholen Sie dies für weitere Benutzer . # 12 3 2 4 0 0 0 5 7 8 6 10 11 0 0 0 13 14 0 15 16 17 18 19
+1
+9 Enter a brief summary in the Summary field . # 1 3 4 5 6 7 9 10 11
+11 Geben Sie eine kurze Zusammenfassung in das » Zusammenfassung«-Feld ein . # 1 0 2 3 4 5 6 0 7 8 9
+1
+20 In the Start Date field , type the date this shared memo should appear in the recipients ' calendars . # 1 4 5 4 5 8 9 11 13 11 15 0 0 18 17 19 20 20 23 24
+24 Geben Sie in das Feld » Startdatum « ein , an welchem Datum die gemeinsame Notiz im Kalender des Empfängers angezeigt werden soll . # 1 0 0 4 5 0 0 6 7 0 10 0 9 0 11 0 15 14 16 18 0 0 19 20
+1
+18 In the Memos view , you can quickly search for memos either by summary or by category . # 1 4 1 3 4 4 6 6 6 6 5 9 12 7 8 12 9 13
+13 Durchsuchen Sie zügig die Notizen nach Zusammenfassung oder Kategorie in der Notizenansicht . # 3 0 4 6 11 10 14 15 17 0 0 16 18
+1
+10 A known problem that is fixed in newer versions . # 1 2 3 5 10 7 6 9 9 11
+11 Ein bekanntes Problem , das in neueren Versionen beseitigt ist . # 1 2 3 0 4 7 6 0 9 5 10
+1
+11 Message fonts are not the same fonts as in other applications # 1 1 2 3 5 5 5 6 7 8 9
+9 Nachrichtenschriften sind nicht dieselben Schriften wie in anderen Anwendungen # 2 3 4 0 7 8 9 10 11
+1
+14 Edit Preferences Mail Preferences General Message Fonts Use the same fonts as other applications # 1 2 2 3 4 4 5 6 7 7 7 8 9 10
+11 Bearbeiten Einstellungen E-Mail-Einstellungen Allgemein Nachrichtenschriftarten Dieselben Schriften wie andere Anwendungen verwenden # 1 3 4 6 7 8 11 12 13 14 0
+1
+16 bug report Edit Preferences Mail Preferences General Message Display Use the same fonts as other applications # 1 1 2 4 3 4 5 5 6 7 8 8 8 9 10 11
+12 Fehlerbericht Bearbeiten Einstellungen E-Mail-Einstellungen Allgemein Nachrichtenanzeige Dieselben Schriften wie andere Anwendungen verwenden # 2 3 5 6 8 9 10 13 14 15 16 0
+1
+12 Work with your mail while not being connected to the network . # 1 3 4 3 4 5 6 7 8 0 9 10
+10 Arbeiten Sie mit Ihren E-Mails auch ohne bestehende Netzwerkverbindung . # 1 0 4 5 6 7 8 9 11 12
+1
+62 Offline mode helps you communicate with remote mail storage systems like GroupWise , IMAP or Exchange , in situations where you are not connected to the network at all times . Evolution keeps a local copy of one or more folders to allow you to compose messages , storing them in your Outbox to be sent the next time you connect . # 2 2 3 6 5 6 0 6 11 11 9 0 11 0 13 0 11 0 0 0 0 0 0 15 20 0 0 0 0 34 22 23 0 29 32 0 0 29 30 0 32 35 0 45 0 0 37 44 0 47 40 0 0 53 56 0 49 49 53 57 57 58
+58 Der Offline-Modus hilft Ihnen , mit entfernten Mail-Systemen wie GroupWise , IMAP oder Exchange ohne dauerhafte Verbindung zum Netzwerk zu arbeiten . Evolution hält eine lokale Kopie von einem oder mehreren Ordner vorrätig , damit Sie Nachrichten schreiben und im Ausgangsordner speichern können , so dass diese bei der nächsten Verbindung mit einem Netzwerk verschickt werden können . # 0 2 3 0 5 8 0 0 11 0 17 0 15 0 24 0 0 0 0 25 0 31 32 0 0 0 0 0 38 39 0 41 0 30 42 0 47 0 0 51 0 0 0 48 44 0 50 0 58 0 0 0 59 0 0 55 61 62
+1
+51 POP mail downloads all messages to your local system , but other connections usually download just the headers , and get the rest only when you want to read the message . Before you go offline , Evolution downloads the unread messages from the folders you have chosen to store . # 1 4 2 3 4 5 6 3 0 10 9 11 19 19 19 28 17 0 20 21 20 29 26 16 27 28 28 28 26 29 30 34 41 36 41 37 48 40 39 45 41 43 44 45 46 54 50 52 50 40 55
+55 POP lädt alle Nachrichten auf Ihre lokale Festplatte herunter , andere Verbindungsarten jedoch laden oftmals nur die Kopfzeilen herunter , und alles weitere erst dann , wenn Sie die Nachricht wirklich lesen wollen . Bevor Sie offline gehen lädt Evolution die ungelesenen Nachrichten aus den Ordnern herunter , die Sie zur Speicherung ausgewählt haben . # 1 3 8 5 6 7 0 0 11 10 12 0 0 0 0 24 17 0 15 21 20 0 0 0 0 29 25 28 30 31 0 0 0 32 0 34 36 0 39 50 41 0 42 43 44 45 0 37 0 49 0 48 0 46 51
+1
+9 To mark a mail folder for offline use , # 1 1 2 4 3 6 6 8 9
+9 Um einen Ordner für die Offline-Nutzung zu markieren , # 2 3 5 4 0 7 0 8 9
+1
+48 Evolution automatically understands the network state and acts accordingly . For instance , Evolution switches to offline mode when the network goes down and automatically switches on when the network is up again . Ensure that your system has Network Manager installed on to enable this feature . # 1 3 3 4 20 6 6 13 13 10 0 0 17 11 12 8 17 16 18 27 20 23 0 24 13 25 29 30 31 20 35 49 40 36 40 41 0 0 48 48 48 46 48 49 51 50 51 55
+55 Evolution erkennt automatisch den Netzwerkstatus und verhält sich dementsprechend . Evolution geht automatisch in den Offline-Modus , wenn die Netzwerkverbindung getrennt wird , und geht in den Online-Modus , wenn das Netzwerk wieder verfügbar ist . Stellen Sie sicher , dass die Anwendung Network Manager installiert ist , damit diese Funktion wie erwartet arbeitet . # 1 0 3 4 0 7 0 16 0 10 14 15 25 0 0 18 17 19 0 30 0 0 22 24 26 0 20 0 27 28 29 0 0 0 31 34 0 0 0 35 36 0 0 0 0 42 0 43 44 46 47 0 0 0 48
+1
+10 Words are wrapped in outgoing mails at 72 characters . # 1 2 4 3 4 6 7 8 9 10
+10 Worte werden in ausgehenden E-Mails ab 72 Zeichen umgebrochen . # 1 2 4 5 0 6 7 8 9 10
+1
+9 Words are wrapped in outgoing mails at 72 characters # 1 2 4 3 4 6 7 8 9
+9 Worte werden in ausgehenden E-Mails ab 72 Zeichen umgebrochen # 1 2 4 5 0 6 7 8 9
+1
+19 For better readability lines are wrapped after 72 characters . This value is hardcoded and cannot be changed . # 1 2 3 5 4 7 6 8 9 10 11 14 13 15 16 19 17 19 21
+21 Zur besseren Lesbarkeit werden Zeilen nach 72 Zeichen umgebrochen . Dieser Wert ist fest eingestellt und kann nicht geändert werden . # 1 2 3 5 4 7 6 8 9 10 11 0 13 12 14 15 17 0 18 0 19
+1
+8 Changing the mail view for widescreen displays . # 2 4 6 5 7 9 9 10
+10 So ändern Sie die Darstellung von E-Mails auf Breitbildschirmen . # 0 1 0 2 4 3 5 0 7 8
+1
+63 Evolution provides a vertical view in addition to the classical view . In the vertical view , the message preview pane is located at the right side of the message list when compared to the classical view where the message preview pane is placed below the message list . Vertical view enables you to use the extra width of wide screen monitors . # 1 2 8 6 6 26 6 7 4 10 10 11 10 13 15 15 16 17 22 18 15 16 15 0 21 19 21 27 27 22 22 0 29 25 30 29 29 0 33 34 31 39 16 0 36 33 34 34 36 39 39 0 44 41 48 54 0 0 0 52 52 52 55
+55 Evolution bietet neben der klassischen Ansicht auch eine vertikale Ansicht . In der vertikalen Ansicht ist die Nachrichtenvorschau rechts von der E-Mail-Liste , während sich in der klassischen Ansicht die Nachrichtenvorschau unterhalb der E-Mail-Liste befindet . Die vertikale Ansicht bietet sich für Monitore mit breitem Bildschirm ( zum Beispiel 16:9- oder Breitbild-Format ) an . # 1 2 0 9 0 7 8 3 0 13 12 0 14 0 23 43 18 20 26 0 27 31 0 0 34 6 29 0 37 35 41 0 46 48 0 49 0 0 51 0 54 0 0 53 0 0 0 55 0 0 0 62 0 56 63
+1
+47 In vertical view , the message list contains double lines of compressed headers , which enables you to consume the extra width in the preview column . The compressed columns have Sender Name and Email , Attachment Icon , Date and Subject in the second line . # 4 4 4 0 2 10 10 9 9 13 9 12 10 15 0 0 11 0 13 21 0 0 20 21 22 20 24 25 26 32 0 27 27 30 0 32 31 32 32 34 36 36 20 0 34 38 39
+39 In der vertikalen Ansicht wird eine E-Mail in der E-Mail-Liste mit zwei Zeilen dargestellt , was Ihnen zusätzliche Breite in der Nachrichtenvorschau bereitstellt . Die zwei Zeilen stellen Absendernamen und -E-Mail , Anhangssymbol , Datum und Betreff dar . # 0 5 0 3 0 0 0 0 11 13 17 12 19 0 14 0 0 0 0 43 24 25 0 27 28 29 33 0 0 34 37 39 0 45 0 42 0 46 47
+1
+21 When you create a newsgroup account , you are not subscribed to any groups . To subscribe to a newsgroup : # 1 2 4 3 4 5 6 7 0 0 9 8 11 12 13 14 15 16 16 17 18
+18 Wenn Sie ein USENET-News-Konto erstellen , haben Sie noch keine Newsgroups abonniert . Um Newsgroups zu abonnieren : # 1 2 4 5 6 7 8 12 11 0 13 14 15 16 17 19 20 21
+1
+19 If you have accounts on multiple servers , select the server where you want to manage your subscriptions . # 1 2 3 3 4 5 8 8 9 11 12 0 17 17 16 19 18 20 22
+22 Falls Sie Konten auf mehreren Servern besitzen , wählen Sie den Server aus , für den Sie Ihre Abonnements verwalten möchten . # 1 2 4 5 6 0 0 8 9 0 10 11 0 0 0 15 14 17 16 18 0 19
+1
+13 Click a group 's checkbox to add a folder to your subscriptions . # 1 4 5 5 5 4 10 10 6 11 0 15 16
+16 Wählen Sie die zu abonnierenden Ordner aus , indem Sie das Ankreuzfeld der Gruppe anwählen . # 1 0 0 6 5 9 0 0 0 8 10 0 0 0 12 13
+1
+14 An explanation for the problem that two trash folders are present in Evolution . # 2 2 2 3 4 6 7 8 9 12 11 9 10 13
+13 Eine Erklärung des Problems , dass zwei Müll-Ordner in Evolution angezeigt werden . # 0 3 4 5 0 6 7 8 12 13 11 10 14
+1
+28 You may have created another Trash folder to hold all your deleted email messages . This can happen when you use another email client together with Evolution . # 1 2 3 4 4 5 9 0 8 0 7 12 12 9 12 13 14 15 17 18 18 4 0 22 23 20 20 25
+25 Sie könnten einen weiteren Müll-Ordner für Ihre gelöschten Nachrichten erstellt haben . Dies kann passieren , wenn Sie neben Evolution ein weiteres E-Mail-Programm verwenden . # 1 2 3 22 6 0 11 9 14 0 0 15 16 17 18 0 19 21 0 27 0 24 25 0 28
+1
+11 How to set up handling unwanted junk / spam mail . # 1 1 2 4 5 5 7 7 8 7 10
+10 So legen Sie den Umgang mit unerwünschten E-Mails fest . # 2 3 0 4 6 0 10 9 0 11
+1
+48 Evolution lets you check for unwanted junk or spam emails by using the Bogofilter or SpamAssassin tools . To use these tools , you need to make sure that they are installed via the software management tool of your distribution and you need enable their respective plugins . # 1 2 2 1 7 6 6 10 6 7 0 9 10 12 13 12 16 15 17 17 0 16 22 17 0 19 21 23 23 19 37 30 27 26 0 29 32 26 28 31 32 33 0 35 36 36 35 38
+38 Evolution ermöglicht die Prüfung auf unerwünschte E-Mails mit Hilfe der Werkzeuge Bogofilter und SpamAssassin . Stellen Sie vor dem Einsatz sicher , dass diese mit der Softwareverwaltung Ihrer Distribution installiert wurden und die entsprechenden Plugins aktiviert sind . # 4 3 0 0 0 9 10 0 12 13 0 16 15 0 18 22 24 0 30 0 27 23 29 0 0 38 33 39 36 32 40 41 42 0 47 46 31 48
+1
+19 Select the plugins you wish to enable . You can select either Bogofilter or SpamAssassin , or both . # 1 3 5 2 3 9 7 8 9 9 9 15 14 15 16 17 18 19 20
+20 Wählen Sie die gewünschten Plugins zur Aktivierung . Sie haben die Wahl zwischen Bogofilter oder SpamAssassin , oder beiden . # 1 4 5 0 3 0 7 8 11 0 0 0 0 13 14 15 16 17 18 19
+1
+15 You can modify how Evolution handles junk mail by changing the Junk Mail Preferences : # 1 2 4 4 6 4 8 8 9 8 11 12 12 13 14
+14 Legen Sie den Umgang von Evolution mit unerwünschten Nachrichten in den Unerwünscht-Einstellungen fest : # 1 2 0 6 0 5 0 10 9 0 11 13 14 15
+1
+16 Deleting junk messages upon exit , and how often junk messages are to be deleted . # 1 2 3 3 4 5 6 8 8 9 10 11 10 12 11 14
+14 Unerwünscht-Ordner beim Beenden leeren , und wie oft unerwünschte Nachrichten gelöscht werden sollen . # 1 2 4 5 6 7 0 9 10 13 15 14 0 16
+1
+14 Marking messages as not junk if the sender is in the address book . # 1 1 3 2 5 7 8 9 9 10 10 11 11 13
+13 Nachrichten nicht als Unerwünscht markieren , wenn der Absender im Adressbuch ist . # 2 4 3 0 5 0 6 7 9 11 13 0 14
+1
+16 Bogofilter and SpamAssassin options . These options are available only if the plugins are enabled . # 3 4 3 5 6 5 5 8 10 9 12 13 14 16 15 17
+17 Einstellungen für Bogofilter und SpamAssassin . Sie sind nur eingeblendet , wenn die Plugins aktiviert sind . # 0 0 3 2 7 5 0 8 10 9 0 11 12 13 15 14 16
+1
+9 How to mark unwanted junk and spam mail . # 1 1 2 4 4 4 4 5 6
+6 So markieren Sie unerwünschte Nachrichten . # 2 3 0 7 8 9
+1
+64 Evolution can check for junk mail for you . Evolution uses SpamAssassin and / or Bogofilter with trainable Bayesian filters to perform the spam check . When the software detects mail that appears to be junk mail , it will flag it and hide it from your view . Messages that are flagged as junk mail are displayed only in the Junk folder . # 1 2 1 6 4 4 6 14 7 8 0 12 0 4 12 0 14 0 0 0 18 19 23 5 8 21 22 23 0 26 31 27 26 28 35 31 31 33 34 35 33 34 41 0 34 35 0 0 54 44 27 43 39 38 39 39 43 53 0 51 51 52 52 54
+54 Evolution kann nach unerwünschten Nachrichten suchen . Evolution nutzt SpamAssassin* und/ oder Bogofilter* mit trainierbaren Bayes-Filtern , um zu suchen . Wenn das Programm entdeckt , dass eine Nachricht wahrscheinlich unerwünscht ist , so wird die Nachricht als unerwünscht markiert und Ihnen nicht im jeweiligen normalen E-Mail-Ordner , sondern einzig im Unerwünscht-Ordner angezeigt . # 3 2 0 14 24 7 9 25 0 0 0 15 0 17 0 0 0 21 22 0 26 27 28 0 0 33 51 34 0 0 37 0 41 45 46 0 0 54 56 0 43 0 57 50 0 0 0 0 0 0 61 63 58 64
+1
+60 The junk mail filter can learn which kinds of mail are legitimate and which are not if you train it by marking as junk incoming mail that you determine is spam . When you first start using junk mail blocking , check the Junk folder frequently to be sure that legitimate mail doesn 't get flagged as junk mail . # 0 4 5 2 6 5 9 5 0 10 12 10 13 14 12 15 17 18 16 21 22 21 26 27 24 27 47 23 25 0 25 31 33 33 0 33 29 38 38 39 43 0 0 41 41 39 44 49 47 47 49 53 49 49 46 53 52 53 53 56
+56 Der Filter für unerwünschte Nachrichten kann erlernen , welche Nachrichten berechtigt sind und welche nicht , wenn Sie ihn trainieren , indem Sie eingehende Nachrichten als unerwünscht erkennen und markieren . Prüfen Sie beim erstmaligen Blockieren von unerwünschten Nachrichten Ihren Unerwünscht-Ordner regelmäßig , um sicherzustellen , dass seriöse Nachrichten nicht versehentlich als unerwünscht markiert wurden . # 0 4 0 2 8 5 0 0 7 12 0 15 13 14 16 19 17 18 0 0 22 21 28 25 31 23 26 0 37 0 32 0 36 0 0 0 0 39 46 0 45 0 41 47 0 55 50 0 54 0 0 57 59 0 0 60
+1
+12 Mark as Not Junk Shift Ctrl J Mark as Junk Ctrl J # 1 2 2 3 3 3 3 8 7 7 8 9
+9 Umschalttaste Strg J Nachricht als unerwünscht markieren Strg J # 1 3 7 0 0 0 10 11 12
+1
+37 Each time you flag a message as Junk , the sender is added to your Spam List ; each time you flag a message as Not Junk , the sender is removed from your Spam List . # 1 2 5 2 5 11 7 9 10 12 13 13 19 14 15 18 18 0 0 22 25 22 25 31 27 27 29 30 32 33 33 33 36 35 38 38 40
+40 Jedes mal , wenn Sie Nachrichten als unerwünscht markieren , wird der Absender zu Ihrer Liste unerwünschter Absender hinzugefügt . Jedes mal , wenn Sie Nachrichten als erwünscht markieren , wird der Absender von Ihrer Liste unerwünschter Absender entfernt . # 1 4 0 0 5 0 7 0 8 9 6 10 12 14 15 0 0 17 13 0 0 22 0 0 23 0 26 0 27 28 24 29 32 0 34 33 0 36 0 37
+1
+12 How to mark a message in Novell Groupwise as not junk . # 1 1 2 7 8 4 6 6 9 9 10 11
+11 So markieren Sie in Novell Groupwise eine Nachricht als erwünscht . # 2 3 0 6 0 8 4 5 10 11 12
+1
+14 Select the message to mark as not junk in your Junk Mail folder . # 1 3 3 6 5 4 4 7 9 10 11 11 11 12
+12 Wählen Sie die als Erwünscht zu markierende E-Mail in Ihrem Unerwünscht-Ordner . # 1 0 3 7 5 4 8 0 9 10 13 14
+1
+18 The message is moved to your Mailbox folder and the name is removed from your junk list . # 1 2 3 4 5 6 6 8 9 10 10 12 11 13 14 15 15 17
+17 Die Nachricht wird nun in Ihren E-Mail-Ordner verschoben und der Absender wird von Ihrer Unerwünscht-Liste entfernt . # 1 2 3 4 5 7 0 8 9 11 13 12 14 15 17 0 18
+1
+15 How to remove an email address from your junk mail list in Novell Groupwise . # 1 1 2 4 5 5 6 7 9 9 8 11 13 13 14
+14 So entfernen Sie eine E-Mail-Adresse aus Ihrer Liste unerwünschter Absender in Novell Groupwise . # 2 3 0 4 6 7 8 11 10 0 12 0 14 15
+1
+11 How to mark a message in Novell Groupwise as junk . # 1 2 3 3 2 4 5 5 6 8 9
+9 Eine Nachricht in Novell Groupwise als Unerwünscht markieren . # 1 5 4 6 8 9 0 10 11
+1
+19 The message is moved to your Junk Mail folder and the user is added to your junk list . # 1 2 3 4 6 5 7 7 8 9 10 11 12 16 13 14 15 15 17
+17 Die Nachricht wird nun in den Unerwünscht-Ordner verschoben und der Absender wird zu Ihrer Unerwünscht-Liste hinzugefügt . # 1 2 3 4 6 5 8 9 10 11 12 13 15 16 18 14 19
+1
+11 How to manage your junk mail list in Novell Groupwise . # 1 1 1 2 3 5 5 5 6 6 7
+7 Verwaltung Ihrer Unerwünscht-Listen in Novell Groupwise . # 3 4 5 0 8 10 11
+1
+12 Specify whether you wish to Enable or Disable junk mail handling . # 3 3 2 6 5 7 13 11 9 10 15 16
+16 Wählen Sie dies , um die Verarbeitung von unerwünschten Nachrichten zu aktivieren oder zu deaktivieren . # 0 3 2 0 5 4 6 0 9 10 8 0 7 0 11 12
+1
+15 How to add an email address to your junk mail list in Novell Groupwise . # 1 1 2 4 5 5 4 6 8 11 7 10 12 12 14
+14 So fügen Sie eine E-Mail-Adresse Ihrer Liste unerwünschter Absender in Novell Groupwise hinzu . # 2 3 0 7 6 8 11 9 0 12 10 14 0 15
+1
+38 Remember , when you mark an item as junk in GroupWise , that item is added to your junk list in the GroupWise system . The settings in the GroupWise system are applied from computer to computer . # 1 2 2 4 7 7 7 10 12 8 24 13 16 17 15 25 18 21 21 20 23 23 24 24 26 0 32 23 31 32 32 39 30 38 42 36 42 43
+43 Bedenken Sie : Wenn Sie ein Objekt in GroupWise als unerwünscht markieren , dann wird das Objekt zu der Liste unerwünschter E-Mails im GroupWise-System hinzugefügt . Weil diese Einstellungen auf dem GroupWise-System verbleiben , ändert sich die Liste nicht mit einem Rechnerwechsel . # 1 3 0 4 0 0 7 10 0 8 0 9 12 0 15 13 14 17 0 20 19 0 28 24 16 25 0 0 0 33 29 31 0 0 0 36 0 34 32 0 0 37 38
+1
+9 Sorting the message list of a mail folder . # 1 1 2 2 3 4 4 5 6
+6 Die E-Mail-Liste eines Nachrichtenordners sortieren . # 2 4 5 7 8 9
+1
+12 Evolution lets you organize your emails by letting you sort messages . # 1 2 2 4 5 6 8 8 9 12 11 13
+13 Evolution ermöglicht das Organisieren Ihrer E-Mails , indem Sie Ihre Nachrichten sortieren . # 1 3 0 4 5 6 0 8 9 0 11 10 12
+1
+29 This feature , when enabled , groups replies with the original email and allows you to follow the flow of the conversation from one message to the next . # 0 4 6 2 4 6 5 8 10 11 12 11 15 11 16 16 14 19 14 21 19 20 21 21 13 19 21 23 24
+24 Wenn Sie diese Funktion aktivieren , werden Antworten zusammen mit der ursprünglichen Nachricht angeordnet und Sie können so den Verlauf der Nachrichten nachvollziehen . # 0 4 0 5 7 6 0 8 0 9 14 11 25 19 13 16 0 0 26 22 27 0 28 29
+1
+31 When a new message arrives , it will be added below the parent message . Threads are sorted and displayed based on the date of the most recent message received . # 1 2 3 4 5 6 7 7 7 13 14 10 11 12 14 12 16 15 24 16 19 0 19 18 19 22 25 25 22 22 26
+26 Sobald eine neue Nachricht eingeht , wird diese unter die übergeordnete Nachricht hinzugefügt . Threads werden nach Datum der zuletzt erhaltenen Nachricht sortiert und angezeigt . # 1 2 3 4 5 6 9 0 0 12 13 16 10 15 18 20 0 24 25 0 0 30 0 19 28 31
+1
+50 For Advanced Users : There is a GConf key that allows you to toggle between the collapsed and expanded state of the email threads . The collapsed state is enabled by default and may be modified at / apps / evolution / mail / display / thread _ expand . # 0 1 2 4 6 5 7 6 8 11 20 9 11 12 13 11 17 15 17 17 18 18 18 17 21 18 24 24 25 0 0 24 27 0 28 24 0 30 31 30 31 32 0 33 34 33 36 36 36 38
+38 Für fortgeschrittene Anwender : Es gibt einen GConf-Schlüssel , der das Umschalten zwischen eingeklapptem und ausgeklapptem Zustand der E-Mail-Threads ermöglicht . Der eingeklappte Zustand ist voreingestellt und kann unter / apps/ evolution/ mail/ display/ thread_expand angepasst werden . # 2 3 0 4 6 8 7 9 12 0 16 14 15 0 18 0 24 26 0 11 25 0 0 36 29 0 33 35 0 40 41 42 46 45 0 49 0 50
+1
+52 The message list displays columns that indicate whether a message has been read , whether it has attachments , how important the message is , the sender , date , and the subject . To change the columns used in the message list , you can do one of the following : # 1 2 2 5 4 5 5 9 19 2 9 9 9 12 16 16 16 16 16 13 16 20 20 33 23 20 8 23 11 28 12 30 32 34 28 45 38 41 0 42 38 38 40 38 37 36 0 43 43 43 46 46
+46 Die E-Mail-Liste besitzt Spalten , die den Absender , das Datum und den Betreff anzeigen , sowie ob eine Nachricht gelesen wurde , ob sie Anhänge besitzt , oder wie wichtig sie ist . So können Sie die Reihenfolge der Spalten in der Nachrichtenliste ändern : # 1 10 0 5 7 0 0 27 13 0 29 31 20 0 0 21 0 0 9 26 0 0 28 0 0 0 0 35 0 32 0 33 24 34 0 46 45 44 0 43 38 40 50 0 36 52
+1
+5 Right-click on the header . # 1 5 6 9 10
+10 Klicken Sie mit der rechten Maustaste auf die Kopfzeile . # 1 0 0 0 2 3 0 0 4 5
+1
+38 Evolution allows you to sort your messages using these columns . Just click on the column label to sort the emails . The direction of the arrow next to the label indicates the direction of the sort . # 1 2 2 12 13 6 7 9 0 11 14 13 13 17 18 14 13 21 13 18 22 25 26 32 28 28 27 30 23 28 24 32 31 32 31 36 24 37
+37 Evolution ermöglicht es Ihnen , Ihre Nachrichten mit Hilfe dieser Spalten zu sortieren . Klicken Sie auf die Spaltenbeschriftung , um E-Mails zu sortieren . Die Richtung des Pfeils neben der Beschriftung gibt die Sortierreihenfolge an . # 1 3 0 0 0 6 7 0 8 0 10 4 19 16 0 0 14 20 0 0 18 21 29 37 22 23 27 30 0 28 35 34 0 0 0 36 38
+1
+24 Evolution provides other ways for sorting email messages . You can use Sort By , Sort Ascending , Sort Descending , or Unsort . # 1 2 4 5 9 14 9 9 10 0 15 14 16 18 17 21 21 22 26 26 27 27 30 31
+31 Evolution bietet auch andere Möglichkeiten zur Sortierung von E-Mails . Möglich sind » Sortieren nach « , » Aufsteigend sortieren « , » Absteigend sortieren « und » Unsortiert « . # 1 2 0 3 4 0 0 0 8 9 0 0 0 12 11 13 15 14 0 0 17 18 0 0 0 20 22 0 0 23 24
+1
+8 Right-click on the message list column headers . # 1 5 6 8 8 9 12 13
+13 Klicken Sie mit der rechten Maustaste auf die Spaltenbezeichnung in der E-Mail-Liste . # 1 0 0 0 2 3 0 5 6 0 0 7 8
+1
+12 This brings up this list of criteria for sorting email messages : # 1 2 4 4 2 5 6 5 8 8 9 10
+10 Die Liste der Sortierkriterien für E-Mails wird daraufhin angezeigt : # 1 5 0 4 8 7 0 10 11 12
+1
+12 Select the option you wish to use in sorting email messages . # 1 3 2 2 4 5 6 7 6 8 8 9
+9 Wählen Sie die Sortierreihenfolge zum Sortieren der E-Mail-Nachrichten . # 1 4 2 5 6 9 8 11 12
+1
+13 The messages will be displayed with the most recent at the bottom . # 1 3 2 2 2 2 4 4 5 5 6 6 7
+7 Die jüngsten Nachrichten werden unten angezeigt . # 1 6 2 8 10 12 13
+1
+13 The messages will be displayed with the most recent at the top . # 1 3 2 2 2 2 4 4 5 5 6 5 7
+7 Die jüngsten Nachrichten werden oben angezeigt . # 1 6 2 8 12 11 13
+1
+21 This removes sorting from the column , reverting to the order of messages as they were added to the folder . # 9 3 2 2 5 4 0 9 10 14 12 14 10 18 21 19 23 20 21 22 25
+25 So wird nicht in der Spalte sortiert . Die Nachrichten werden wieder in der Reihenfolge dargestellt , wie sie zu dem Ordner hinzugefügt wurden . # 0 4 2 6 5 0 0 0 8 13 0 11 0 12 0 0 0 14 16 18 19 20 17 0 21
+1
+14 How to split and sort mail when using more than one local account . # 1 1 2 3 4 6 8 8 10 10 12 13 14 15
+15 So teilen und sortieren Sie Nachrichten bei Verwendung von mehr als einem lokalen Konto . # 2 3 4 5 0 6 0 8 0 10 0 11 12 13 14
+1
+26 It is not possible to have separate accounts in the accounts and folder list pane . Evolution only has one unique inbox for incoming email . # 1 2 3 4 5 10 9 10 11 12 10 14 0 15 15 18 19 21 0 15 23 23 24 25 26 27
+27 Es ist nicht möglich , dass es mehrere getrennte Konten in der Kontenansicht und der Ordnerlistenansicht gibt . Evolution hat nur einen Eingangsbereich für eingehende E-Mails . # 1 2 3 4 5 0 0 0 7 11 9 10 0 12 20 0 0 16 17 0 18 0 22 23 24 25 26
+1
+9 creating folders creating filters Edit Message Filters ... Add # 2 1 2 3 5 5 6 6 7
+7 Ordner erstellen Filter erstellen Bearbeiten Nachrichtenfilter Hinzufügen # 2 3 4 0 6 8 9
+1
+35 Free webmail providers often supply information about which of these options can be used . If you are in an organizational environment , you may want to contact your system administrator for more information . # 1 2 3 4 4 5 6 8 0 0 10 14 0 0 15 16 17 0 18 19 22 22 25 26 0 28 28 27 30 0 31 32 0 34 35
+35 Kostenlose Webmail-Provider veröffentlichen normalerweise Informationen darüber , welche Optionen Sie zum Verbinden nutzen können . Falls Sie in einer Firma oder einer Organisation arbeiten , so fragen Sie bitte Ihren System-Administrator für weitere Informationen . # 1 2 3 5 6 7 0 8 0 11 0 0 0 12 15 16 17 19 20 0 0 22 0 0 23 24 28 27 0 29 31 32 0 34 35
+1
+14 If the server requires authentication , you need to provide the following information : # 1 2 3 4 5 6 7 7 8 9 8 10 9 12
+12 Falls der Server Legitimation erfordert , müssen folgende Informationen eingegeben werden : # 1 2 3 4 5 6 8 11 13 12 0 14
+1
+9 Check automatically and regularly for new received mail . # 1 1 2 2 3 3 5 5 6
+6 Automatisch regelmäßig neue E-Mail-Nachrichten abrufen . # 2 4 6 0 8 9
+1
+16 Check for new messages every ... minutes Receiving Email Edit Preferences Mail Accounts Edit Receiving Email # 1 2 3 3 3 5 7 8 8 9 10 10 11 12 13 13
+13 Automatisch nach neuen E-Mails sehen alle Minuten Empfangsoptionen Bearbeiten Einstellungen E-Mail-Konten Bearbeiten Empfangsoptionen # 1 2 5 0 6 0 7 9 10 12 13 14 16
+1
+15 In the mail view , you can quickly search for messages by defining conditions . # 1 2 3 4 4 7 6 12 12 12 14 14 13 15 16
+16 Durch das Definieren von Bedingungen können Sie in der Nachrichtenansicht schnell nach bestimmten Nachrichten suchen . # 1 2 3 5 0 7 6 0 0 0 0 10 13 12 14 15
+1
+13 Select the scope from the drop-down list right to the text box . # 1 3 4 5 5 7 7 8 9 10 11 11 13
+13 Wählen Sie den Bereich aus der Auswahlliste rechts neben dem Textfeld aus . # 1 0 2 3 5 0 7 8 9 10 12 0 13
+1
+28 If you start directly from the fourth step , text will be searched in mail 's subjects and addresses and scope will be " Current folder " . # 1 2 3 3 10 4 6 7 8 11 10 10 12 11 23 13 16 19 17 19 20 10 23 24 22 23 24 25
+25 Wenn Sie direkt mit Schritt vier beginnen , so wird im aktuellen Ordner nach dem Suchbegriff im Betreff und den E-Mail-Adressen aller Nachrichten gesucht . # 1 2 4 6 0 7 8 9 0 22 14 13 16 0 0 17 19 0 20 21 0 25 26 27 28
+1
+30 There currently is no way to do search for emails with a specific type of attachment ( for example searching for all emails that have a PDF attachment ) . # 2 2 1 4 3 0 6 7 7 8 9 10 10 0 0 22 15 14 17 0 14 0 20 0 0 18 22 22 23 24
+24 Es gibt derzeit keine Möglichkeit , nach E-Mails mit einem bestimmten Anhangtyp zu suchen ( wie zum Beispiel nach E-Mails mit PDF-Anhängen ) . # 3 2 5 4 0 7 9 10 11 13 0 0 0 21 17 0 19 26 0 23 0 28 29 30
+1
+42 It might happen that one of your Search folders has not updated since some new email arrived or since an email was deleted , for example . This will mean that the list of emails in the folder is not up-to-date . # 1 4 3 5 0 6 7 8 8 13 9 11 14 13 16 0 15 20 14 20 0 18 21 26 16 0 23 24 0 25 27 28 29 30 0 32 32 33 36 34 35 37
+37 Es kann passieren , dass einer Ihrer Suchordner nicht aktualisiert worden ist , seit z.B. neue Nachrichten eingegangen sind oder gelöscht wurden . Dies bedeutet , dass die Liste der Nachrichten im Ordner nicht aktuell ist . # 1 0 3 2 4 6 7 9 11 0 12 0 14 19 17 25 0 22 0 20 23 0 27 28 30 24 31 32 33 34 0 37 38 40 41 39 42
+1
+18 Use search folders to see messages in one folder while still keeping them in their original folders . # 1 2 3 5 5 6 7 8 9 11 13 13 14 15 17 17 18 20
+20 Verwenden Sie Suchordner , um Nachrichten in einem Ordner zu lesen , während diese in den ursprünglichen Ordnern verbleiben . # 1 2 3 0 5 6 7 8 9 0 10 0 12 13 14 0 16 17 0 18
+1
+17 Evolution automatically updates the search folder contents when new messages are received or message are deleted . # 1 3 3 4 4 4 7 8 15 12 12 11 13 11 16 16 18
+18 Evolution aktualisiert automatisch den Inhalt von Suchordnern , sobald eine Nachricht gelöscht oder eine neue empfangen wird . # 1 0 3 6 0 0 7 8 0 0 14 11 13 0 9 16 0 17
+1
+12 The sender 's email address or the name of the sender . # 1 2 2 2 2 3 4 5 6 6 7 8
+8 Die E-Mail-Adresse oder der Name des Absenders . # 1 5 6 7 8 10 11 12
+1
+18 Only the BCC recipients of the message . Obviously this can only be applied to outgoing filters . # 1 2 3 3 3 8 2 10 11 13 12 14 12 16 15 17 17 19
+19 Nur die Empfänger im Feld » Blindkopie an « . Selbstverständlich kann dies nur auf Ausgangsfilter angewendet werden . # 1 7 5 0 0 0 0 6 0 8 9 13 10 12 15 14 17 0 18
+1
+18 The sender 's email address or the name of the sender or the recipients of the message . # 1 2 2 2 2 3 6 5 6 6 7 9 10 11 12 12 13 14
+14 Die E-Mail-Adresse oder der Name des Absenders , oder der Empfänger der Nachricht . # 1 5 6 0 8 10 11 0 12 13 14 16 17 18
+1
+85 If a message uses a header more than once , Evolution pays attention only to the first instance , even if the message defines the header differently the second time . For example , if a message declares the Resent-From : header as " engineering @ example.com " and then restates it as " marketing @ example.com " , Evolution filters as though the second declaration did not occur . To filter on messages that use headers multiple times , use a regular expression . # 1 2 3 0 2 6 7 7 4 11 14 4 4 15 0 19 0 0 20 23 22 23 24 25 25 26 25 25 20 22 32 0 34 40 22 35 37 0 38 40 42 39 44 45 47 0 51 52 48 49 51 57 51 54 61 0 61 54 60 59 0 61 60 63 73 73 73 66 73 68 73 73 73 75 78 0 0 0 78 78 0 76 84 84 87
+87 Falls eine Nachricht die gleiche Kopfzeile mehr als einmal benutzt , so wertet Evolution nur ihr erstes Auftreten aus , selbst wenn die Nachricht die Kopfzeile beim zweiten Mal anders definiert . Wenn zum Beispiel eine Nachricht die Kopfzeile » Resent-From : « als » engineering@example.com « und dann nochmals als » marketing@example.com « definiert , so filtert Evolution , als ob der zweite Wert nicht existierte . Verwenden Sie reguläre Ausdrücke , um Nachrichten zu filtern , welche die gleichen Kopfzeilen mehr als einmal definieren . # 1 5 3 13 0 6 8 0 0 0 10 0 0 11 14 0 0 0 16 29 0 35 22 23 28 26 0 0 0 0 0 31 0 33 36 0 37 39 42 40 0 41 0 43 44 0 45 49 50 0 53 48 0 58 0 0 52 0 60 63 62 0 64 0 0 68 0 70 0 0 0 0 73 0 74 82 0 80 0 0 0 0 0 84 0 0 85
+1
+9 Searches in the actual text of the message . # 1 2 2 3 3 4 4 5 6
+6 Sucht im Nachrichtentext der Nachricht . # 1 3 5 7 8 9
+1
+99 Filters messages according to the date on which they were sent . First , choose the conditions you want a message to meet , such as before a given time or after a given time . Then choose the time . The filter compares the message 's time stamp to the system clock when the filter is run , or to a specific time and date you choose from a calendar . You can also have it look for a message within a range of time relative to the filter , such as two to four days ago . # 1 2 3 4 4 5 3 0 8 9 0 12 0 18 32 16 16 14 14 21 22 21 0 18 25 26 0 28 32 32 33 34 28 32 32 38 32 32 42 37 38 0 47 37 42 52 33 43 43 42 42 0 43 56 49 47 60 43 61 62 49 64 64 56 0 5 63 68 65 64 0 69 0 71 72 0 60 68 73 74 52 76 74 76 0 76 76 72 78 58 79 79 0 83 81 76 79 0 88
+88 Filtert Nachrichten gemäß dem Datum , an dem sie verschickt wurden . Wählen Sie zunächst die Bedingungen , die auf eine Nachricht zutreffen sollen , wie zum Beispiel vor einem bestimmten Zeitpunkt oder nach einem bestimmten Zeitpunkt . Wählen Sie dann den Zeitpunkt aus . Der Filter vergleicht den Zeitstempel der Nachricht mit der Systemzeit wenn der Filter angewendet wird , oder mit einem von Ihnen vorgegebenen Zeitpunkt . Es kann auch nach einem relativen Zeitpunkt gefiltert werden , also zum Beispiel zwei oder vier Tage zuvor . # 1 2 7 5 66 0 0 9 10 0 0 12 0 19 0 17 0 24 0 0 22 21 0 0 25 26 0 33 0 0 0 38 47 32 0 0 44 41 0 0 0 51 58 0 0 0 56 0 61 0 0 81 0 0 0 64 0 90 0 77 59 60 67 70 69 0 0 78 72 0 74 88 79 83 0 96 0 89 97 0 95 0 94 0 0 0 0 99
+1
+27 This works the same way as the Date Sent option , except that it compares the time you received the message with the dates you specify . # 1 2 6 5 5 5 6 6 10 0 11 11 13 18 16 15 16 22 24 20 24 22 23 25 26 25 27
+27 Dies funktioniert genau so wie das Filtern gemäß dem Verschickt-Datum , nur dass hierbei der Zeitpunkt verglichen wird , an dem Sie die Nachricht erhalten haben . # 1 2 0 0 6 8 0 0 0 9 12 0 13 0 16 17 0 14 0 20 0 22 23 21 26 25 27
+1
+66 Sets the message score to any whole number greater than 0 . You can have one filter set or change a message score , and then set up another filter to move the messages you have scored . A message score is not based on anything in particular : it is simply a number you can assign to messages so other filters can process them . # 3 2 5 3 6 0 10 3 10 12 10 15 17 17 18 22 19 23 22 21 18 23 24 26 27 27 23 65 29 30 33 35 34 38 20 0 44 42 50 37 44 14 0 34 46 50 39 50 0 50 58 58 56 44 60 63 62 55 61 64 66 67 70 70 68 71
+71 Setzt die Bewertung der Nachricht auf einen ganzzahligen Wert der größer als 0 ist . Sie können einen Filter haben , der die Bewertung setzt , und einen weiteren Filter , der auf der Bewertung basierend die Nachrichten in Ordner verschiebt . Eine Bewertung basiert auf keinen speziellen Eigenschaften , es handelt sich nur um eine Nummer , die Sie Nachrichten zuweisen können , damit andere Filter diese weiterverarbeiten können . # 0 2 8 0 3 5 0 0 0 11 0 10 0 42 12 0 14 21 17 35 20 19 27 23 0 24 26 0 29 30 0 0 31 44 32 0 40 34 47 0 0 38 0 54 0 45 0 0 0 50 0 0 0 0 58 53 0 52 0 55 59 57 56 60 28 61 62 65 0 64 66
+1
+11 Sorts based on the size of the message in kilobytes . # 1 1 2 3 4 5 5 6 7 8 9
+9 Sortiert gemäß der Größe der Nachricht in Kilobyte . # 2 3 4 5 7 8 9 10 11
+1
+25 Filters according to the status of a message . The status can be Replied To , Draft , Important , Read , or Junk . # 1 2 3 3 4 5 5 6 0 8 9 20 10 12 12 15 14 15 16 15 18 15 17 16 21
+21 Filtert gemäß dem Status einer Nachricht , der Beantwortet , Entwurf , Wichtig , Gelesen , oder Unerwünscht sein kann . # 1 2 4 5 7 8 0 10 11 13 0 15 0 17 22 24 23 21 0 12 25
+1
+10 Checks whether there is an attachment for the email . # 2 2 3 4 6 7 8 7 9 11
+11 Filtert je nachdem , ob eine Nachricht einen Anhang besitzt . # 0 2 3 4 0 5 8 7 9 0 10
+1
+60 Filters based on the mailing list the message came from . This filter might miss messages from some list servers , because it checks for the X-BeenThere header , which is used to identify mailing lists or other redistributors of mail . Mail from list servers that do not set X-BeenThere properly are not be caught by these filters . # 1 4 3 4 7 4 4 10 7 7 12 13 14 6 9 20 19 21 17 21 21 21 24 19 19 17 19 39 25 22 24 0 26 25 33 25 0 0 32 0 33 30 0 33 37 36 36 43 40 37 45 45 44 48 44 48 0 0 47 50
+50 Filtert basierend auf der Mailingliste , von welcher die Nachricht stammt . Dieser Filter prüft auf die X-BeenThere-Kopfzeile von Nachrichten , welche genutzt wird , um Mailinglisten zu kennzeichnen . E-Mails die von List-Servern stammen , die diese Kopfzeile nicht korrekt benutzen , werden von diesem Filter nicht erkannt . # 1 0 3 7 0 14 10 0 15 8 0 11 12 13 0 0 26 0 27 16 22 30 0 31 36 33 0 0 0 42 0 39 44 0 0 47 50 0 28 49 0 0 48 55 52 0 59 56 0 60
+1
+13 Edit Search Folders Message Create Rule Search Create Search Folder From Search ... # 1 2 2 1 4 5 7 4 7 9 9 9 10
+10 Bearbeiten Suchordner Nachricht Regel anlegen Suche Suchordner aus Suche anlegen # 4 3 0 8 6 0 9 0 12 13
+1
+28 Define the conditions for the rule . For each condition , you first select which part of the message will be checked and then define the comparison . # 1 3 3 5 6 6 9 0 0 14 10 11 0 16 0 16 17 25 21 21 21 20 23 24 26 25 27 28
+28 Legen Sie die Bedingungen für die Regel fest . Sie müssen für jede Bedingung zuerst wählen , welcher Nachrichtenteil geprüft wird , und dann den Vergleich definieren . # 1 0 3 0 4 6 0 0 7 11 12 0 0 10 0 16 17 0 0 22 21 0 23 24 26 25 27 28
+1
+18 Uses all local folders for the search folder source in addition to individual folders that are selected . # 1 2 3 4 4 4 6 6 8 8 8 9 11 11 12 12 13 14
+14 Benutzt alle lokalen Ordner als Suchordner-Quellen , zusätzlich zu den ausgewählten individuellen Ordnern . # 1 2 3 6 0 8 0 11 12 0 14 16 17 18
+1
+41 Remote folders are considered active if you are connected to the server ; you must be connected to your mail server for the search folder to include any messages from that source in addition to individual folders that are selected . # 1 5 6 3 5 11 12 6 16 14 14 15 0 12 16 6 16 22 21 21 23 35 22 33 35 30 0 0 31 32 42 38 38 38 39 41 43 42 42 43 44
+44 Entfernte ( nicht-lokale ) Ordner werden als aktiv betrachtet , wenn Sie mit dem Server verbunden sind ; Sie müssen mit dem Server verbunden sein , damit der Suchordner auch Nachrichten aus den entfernten Ordner beinhaltet , zusätzlich zu den ausgewählten individuellen Ordnern . # 1 0 4 0 5 16 0 0 0 0 6 14 0 11 12 17 0 0 0 0 20 23 21 0 0 0 0 0 0 26 29 30 24 0 25 0 0 34 35 0 36 39 40 41
+1
+21 Uses all local and active remote folders for the search folder source in addition to individual folders that are selected . # 1 2 3 4 5 5 7 7 7 9 9 11 11 11 12 14 14 15 15 16 17
+17 Benutzt alle lokalen und aktiven nicht-lokalen Ordner als Suchordner-Quellen , zusätzlich zu den ausgewählten individuellen Ordnern . # 1 2 3 4 6 0 9 0 11 0 14 15 0 17 19 20 21
+1
+9 Updating / refreshing the folders on the mail server # 1 1 1 2 3 4 5 6 6
+6 Aktualisieren der Ordner auf dem E-Mail-Server # 3 4 5 6 7 9
+1
+9 Receiving Email Edit Preferences Mail Accounts Edit Receiving Email # 1 1 4 5 5 6 7 8 8
+10 Abrufen von E-Mails Bearbeiten Einstellungen E-Mail-Konten Bearbeiten Abrufen von E-Mails # 2 0 0 3 5 6 7 9 0 0
+1
+15 Select if you want to use a secure connection ( SSL or TLS ) . # 1 5 2 5 7 6 7 8 11 10 13 12 13 14 17
+17 Wählen Sie aus , ob Sie eine sichere Verbindung ( SSL oder TLS ) verwenden möchten . # 1 3 0 0 4 6 7 8 0 10 9 12 13 14 0 0 15
+1
+11 You should enable this option if your server supports it . # 2 2 4 3 7 7 10 11 12 13 14
+14 Sie sollten diese Funktion aktivieren , falls sie von Ihrem Server unterstützt wird . # 0 2 4 3 0 0 6 0 0 7 8 9 10 11
+1
+10 Select if you want Evolution to remember your password . # 1 4 2 4 5 6 9 8 10 12
+12 Wählen Sie , ob Evolution sich an Ihr Passwort erinnern soll . # 1 3 0 4 5 6 0 8 7 9 0 10
+1
+9 Receiving Options Edit Preferences Mail Accounts Edit Receiving Options # 1 1 2 3 3 4 5 6 6
+6 Empfangsoptionen Bearbeiten Einstellungen E-Mail-Konten Bearbeiten Empfangsoptionen # 2 3 5 6 7 9
+1
+11 Select if you want to show folders in short notation . # 1 4 2 4 6 7 5 6 10 10 11
+11 Wählen Sie , ob Ordner in Kurznotation angezeigt werden sollen . # 1 3 0 4 7 8 6 0 0 10 11

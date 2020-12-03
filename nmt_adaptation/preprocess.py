@@ -2,9 +2,10 @@ from util import arr2txt
 
 class NMT_dataset:
     def __init__(self, orig_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/orig/", name="EMEA",
-                 src="de", trg="en", n_train=10000, n_valid=2000, n_test=2000,
+                 src="de", trg="en", n_train=10000, n_valid=150, n_test=2000,
                  temp_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
-                 save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
+                 new_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
+                 final_save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
         """
         :param orig_dir:
         :param src:
@@ -21,7 +22,8 @@ class NMT_dataset:
         self.n_test = n_test
         self.name = name
         self.temp_dir = temp_dir+name+"/"
-        self.save_dir = save_dir+name+"/"
+        self.new_dir = new_dir+name+"/"
+        self.save_dir = final_save_dir+name+"/"
 
     @staticmethod
     def get_doc_name_list(self, orig_dir):
@@ -76,20 +78,4 @@ class NMT_dataset:
 
         arr2txt(source[1:], temp_dir+file_name+".de")
         arr2txt(target[1:], temp_dir+file_name+".en")
-#
-# dir_EMEA = "/data/orig/EMEA/opus_everything"
-# dir_GNOME = "/data/orig/GNOME/opus_everything"
-# dir_JRC = "/data/orig/JRC/opus_everything"
-# save_xmlfiles_per_doc_EMEA = "/home/diego/Documents/thesis/NMT-Adaptation/data/orig/EMEA/xmlfiles_per_doc/"
-#
-# doc_counts = 0
-# with open(dir_GNOME) as file:
-#     lines = []
-#     for line in file:
-#         doc_name = save_xmlfiles_per_doc_EMEA + str(doc_counts)
-#         if line.startswith('# de/'):
-#             doc_counts += 1
-#         else:
-#             with open(doc_name, "a+") as txt_file:
-#                 txt_file.write("".join(line) + "\n")
-#
+
