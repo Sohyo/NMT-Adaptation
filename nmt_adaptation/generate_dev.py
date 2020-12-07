@@ -1,5 +1,5 @@
-from util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, text2arr
-from nmt_dev import NMT_dev
+from nmt_adaptation.util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, text2arr
+from nmt_adaptation.nmt_dev import NMT_dev
 import re
 
 

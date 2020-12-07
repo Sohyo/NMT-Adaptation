@@ -1,4 +1,4 @@
-from util import get_sorted_file_list, text2arr
+from nmt_adaptation.util import get_sorted_file_list_by_size, text2arr
 import xmltodict
 
 

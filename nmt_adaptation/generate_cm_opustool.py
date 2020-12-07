@@ -1,4 +1,4 @@
-from util import get_sorted_file_list
+from nmt_adaptation.util import get_sorted_file_list_by_name
 
 
 def create_arg_base(directory, download_dir, xces_files):

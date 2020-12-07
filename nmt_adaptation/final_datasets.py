@@ -1,6 +1,6 @@
-from util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, cleanup_datasets
-from preprocess import NMT_dataset
-from nmt_dev import NMT_dev
+from nmt_adaptation.util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, cleanup_datasets
+from nmt_adaptation.preprocess import NMT_dataset
+from nmt_adaptation.nmt_dev import NMT_dev
 import random
 
 

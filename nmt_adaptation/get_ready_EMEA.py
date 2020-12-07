@@ -1,5 +1,5 @@
-from util import get_sorted_file_list, arr2txt
-from func_for_pre_post_process import split_into_src_trg
+from nmt_adaptation.util import get_sorted_file_list, arr2txt
+from nmt_adaptation.func_for_pre_post_process import split_into_src_trg
 
 
 def main():

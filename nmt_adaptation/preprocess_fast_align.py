@@ -1,4 +1,4 @@
-from util import text2arr
+from nmt_adaptation.util import text2arr
 
 
 def write_fast_align_input(array_de, array_en, save_directory, data):

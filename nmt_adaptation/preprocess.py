@@ -1,4 +1,4 @@
-from util import arr2txt
+from nmt_adaptation.util import arr2txt
 
 class NMT_dataset:
     def __init__(self, orig_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/orig/", name="EMEA",
