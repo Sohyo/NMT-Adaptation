@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 /data/orig/
 /data/temp_custom_data/
+
+#Pycharm settings
+.idea/
