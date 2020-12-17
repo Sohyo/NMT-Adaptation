@@ -132,3 +132,7 @@ dmypy.json
 
 #Pycharm settings
 .idea/
+
+
+# fairseq model
+/models/wmt19.en-de.joined-dict.ensemble.tar.gz
