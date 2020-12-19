@@ -127,5 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/data/orig/GNOME/
+/data/orig/JRC/
+
 /data/orig/
-/data/temp_custom_data/
+/data/temp_custom_data/EMEA_old/
+/data/temp_custom_data/temp/
+/data/temp_custom_data/GNOME/
+/data/temp_custom_data/JRC/
+
