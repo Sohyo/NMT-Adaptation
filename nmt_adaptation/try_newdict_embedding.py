@@ -1,6 +1,7 @@
 import torch
 import argparse
 import os
+
 from typing import List
 import fairseq
 from fairseq.models.transformer import TransformerModel
