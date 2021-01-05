@@ -1,0 +1,1 @@
+opus_read --source de  --target en --write_mode normal --directory GNOME --write GNOME.out

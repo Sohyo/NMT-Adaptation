@@ -1,11 +1,13 @@
 from nmt_adaptation.util import arr2txt
+import os
+
 
 class NMT_dataset:
-    def __init__(self, orig_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/orig/", name="EMEA",
+    def __init__(self, orig_dir="../data/orig_data/", name="EMEA",
                  src="de", trg="en", n_train=10000, n_valid=150, n_test=2000,
-                 temp_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
-                 new_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
-                 final_save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
+                 temp_dir="../data/temp_custom_data/",
+                 new_dir="../data/temp_custom_data/",
+                 final_save_dir="../data/custom_data/"):
         """
         :param orig_dir:
         :param src:
@@ -14,16 +16,16 @@ class NMT_dataset:
         :param n_valid:
         :param n_test:
         """
-        self.orig_dir = orig_dir+name+"/"
+        self.orig_dir = os.path.join(orig_dir, name)
         self.src = src
         self.trg = trg
         self.n_train = n_train
         self.n_valid = n_valid
         self.n_test = n_test
         self.name = name
-        self.temp_dir = temp_dir+name+"/"
-        self.new_dir = new_dir+name+"/"
-        self.save_dir = final_save_dir+name+"/"
+        self.temp_dir = os.path.join(temp_dir, name)
+        self.new_dir = os.path.join(new_dir, name)
+        self.save_dir = os.path.join(final_save_dir, name)
 
     @staticmethod
     def get_doc_name_list(self, orig_dir):
@@ -42,7 +44,7 @@ class NMT_dataset:
         doc_counts = 0
         with open(orig_root+"/opus_everything") as file:
             for line in file:
-                doc_name = orig_root+"xmlfiles_per_doc/" + str(doc_counts)
+                doc_name = os.path.join(orig_root,"xmlfiles_per_doc/", str(doc_counts))
                 if line.startswith('# de/'):
                     doc_counts += 1
                 else:
@@ -76,6 +78,6 @@ class NMT_dataset:
                     src_text = ''
                     trg_text = ''
 
-        arr2txt(source[1:], temp_dir+file_name+".de")
-        arr2txt(target[1:], temp_dir+file_name+".en")
+        arr2txt(source[1:], os.path.join(temp_dir, file_name, ".de"))
+        arr2txt(target[1:], os.path.join(temp_dir, file_name, ".en"))
 
