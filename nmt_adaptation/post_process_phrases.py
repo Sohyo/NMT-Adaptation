@@ -1,5 +1,6 @@
 from nmt_adaptation.util import arr2txt, text2arr
 import random
+import os
 
 def split_trg_src_phrase(path, save_name):
     """
@@ -34,21 +35,42 @@ def add_tag(path, save_dir):
     arr2txt(tag_added_phrases, save_dir)
 
 
+class NMT_phrase:
+    def __init__(self, root_dir="../data/extracted_phrases/",
+                 save_dir="../data/edited_phrases/", languages=["de", "en"], name="EMEA"):
+        self.root_dir = root_dir
+        self.save_dir = save_dir
+        self.languages = ["de", "en"]
+        self.name = name
+
+
+    def select_randomly(self, percentage):
+        extracted_phrases = text2arr(os.path.join(self.root_dir, f'{self.name}_train_union_4'))
+        selected_phrases = random.choices(extracted_phrases, k=int(len(extracted_phrases) * percentage))
+        arr2txt(selected_phrases, os.path.join(self.root_dir, f'{self.name}_train_phrase_4_{percentage}'))
+
 def main():
-    root_dir = "../data/extracted_phrases/"
-    save_dir = "../data/edited_phrases/"
-    data_names = ["EMEA", "GNOME", "JRC"]
-    languages = ["de", "en"]
-    # EMEA_path = "../data/extracted_phrases/EMEA_train_union"
+    emea = NMT_phrase(name="EMEA")
+    gnome = NMT_phrase(name="GNOME")
+    jrc = NMT_phrase(name="JRC")
+    percentage = 0.5
 
-    for data in data_names:
-        split_trg_src_phrase(root_dir+data+"_train_union_4", data+"_train_phrase_4")
-        for lang in languages:
-            add_tag(f'{save_dir}{data}_train_phrase_4.{lang}', f'{save_dir}{data}_tagged_train_phrase_4.{lang}')
+    emea.select_randomly(percentage)
+    gnome.select_randomly(percentage)
+    jrc.select_randomly(percentage)
 
+    # Split the extracted phrases into src/trg
+    # Then, put tag on the sentences
+    for data in [emea, gnome, jrc]:
 
-    # for data_name in data_names:
-    #     split_trg_src_phrase(root_dir+data_name+"_train_union", data_name+"_train_phrase")
+        split_trg_src_phrase(path=os.path.join(data.root_dir, f'{data.name}_train_phrase_4_{percentage}'),
+                             save_name=f'{data.name}_train_phrase_4_{percentage}')
+
+        # Tagging every sentences
+        for lang in data.languages:
+            add_tag(f'{data.save_dir}{data.name}_train_phrase_4_{percentage}.{lang}',
+                    f'{data.save_dir}{data.name}_tagged_train_phrase_4_{percentage}.{lang}')
+
 
 
 
