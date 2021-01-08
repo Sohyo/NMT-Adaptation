@@ -1,7 +1,7 @@
 from nmt_adaptation.util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, cleanup_datasets
 from nmt_adaptation.nmt_dataset import NMT_dataset
 from nmt_adaptation.nmt_dev import NMT_dev
-import random
+import os
 
 '''
 
@@ -72,13 +72,14 @@ def main():
     emea = NMT_dataset(name="EMEA")
     gnome = NMT_dataset(name="GNOME")
     jrc = NMT_dataset(name="JRC")
-    emea.split_into_each_docs(orig_root=emea.orig_dir, name=emea.name)
+
+    # emea.split_into_each_docs()
     # gnome.split_into_each_docs(gnome.orig_dir, gnome.name)
     # jrc.split_into_each_docs(jrc.orig_dir, jrc.name)
-    #
-    # emea_files = get_sorted_file_list_by_name(emea.orig_dir+"xmlfiles_per_doc/")
+
+    # emea_files = get_sorted_file_list_by_name(os.path.join(emea.orig_dir, emea.name, "xmlfiles_per_doc"))
     # for file in emea_files:
-    #     emea.split_into_src_trg(emea.orig_dir, file, emea.temp_dir)
+    #     emea.split_into_src_trg(file_name=file)
     #
     # gnome_files = get_sorted_file_list_by_name(gnome.orig_dir + "xmlfiles_per_doc/")
     # for file in gnome_files:

@@ -50,20 +50,26 @@ def adjust_length_2docs(arr_de, arr_en):
         return arr_de[:doc_length], arr_en[:doc_length]
 
 def cleanup_datasets(temp_dir, save_dir):
+    # First, get sorted every file names from 'temp_dir'
     file_list = get_sorted_file_list_by_name(temp_dir)
+
+    # Due to it is parallel corpora, need to divide the num of files by 2
     for file_num in range(int(len(file_list)/2)):
         np_de, np_en = np.array([]), np.array([])
-        de, en = adjust_length_2docs(text2arr(temp_dir + str(file_num) + ".de"), text2arr(temp_dir + str(file_num)+".en"))
+
+        # If one of the corpus has shorter than the other, remove the left sentences from the longer corpus
+        de, en = adjust_length_2docs(text2arr(join(temp_dir, str(file_num) + ".de")), text2arr(join(temp_dir, str(file_num)+".en")))
         np_de = np.append(np_de, de, 0)
         np_en = np.append(np_en, en, 0)
         two_lang_docs = np.column_stack((np_de, np_en))
 
+        # Save the brand new both language corpora
         new_de = []
         new_en = []
         for sentences in two_lang_docs:
             if "" not in sentences:
-                if len(sentences[0].split()) > 8 or len(sentences[1].split()) > 8:
+                if len(sentences[0].split()) > 10 and len(sentences[1].split()) > 10:
                     new_de.append(sentences[0])
                     new_en.append(sentences[1])
-        arr2txt(new_de, save_dir + str(file_num) + ".de")
-        arr2txt(new_en, save_dir + str(file_num) + ".en")
+        arr2txt(new_de, join(save_dir, str(file_num) + ".de"))
+        arr2txt(new_en, join(save_dir, str(file_num) + ".en"))

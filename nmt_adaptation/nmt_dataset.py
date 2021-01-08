@@ -27,10 +27,10 @@ class NMT_dataset:
         self.save_dir = join(final_save_dir, name)
 
     @staticmethod
-    def get_doc_name_list(orig_dir):
+    def get_doc_name_list(self):
         german_docs_list = []
         english_docs_list = []
-        with open(orig_dir) as f:
+        with open(self.orig_dir) as f:
             for line in f:
                 if '# de/' in line:
                     german_docs_list.append(line)
@@ -39,7 +39,7 @@ class NMT_dataset:
         return german_docs_list, english_docs_list
 
 
-    def split_into_each_docs(self, orig_root, name):
+    def split_into_each_docs(self):
 
         """
         Split the results from OPUS tool into each docs.
@@ -47,9 +47,9 @@ class NMT_dataset:
         :param name: name of the dataset
         """
 
-        doc_counts = 0  # This is counting of documents and at the same time it will bethe name of each files.
-
-        with open(join(orig_root, name + ".out")) as file:
+        # This is counting of documents and at the same time it will bethe name of each files.
+        doc_counts = 0
+        with open(join(self.orig_dir, self.name + ".out")) as file:
             for line in file:
 
                 # The file from OPUS tool starts a new file with "# de/".
@@ -57,20 +57,18 @@ class NMT_dataset:
                 if line.startswith('# de/'):
                     doc_counts += 1
 
-                doc_name = join(orig_root, name, "xmlfiles_per_doc/", str(doc_counts))
+                doc_name = join(self.orig_dir, self.name, "xmlfiles_per_doc/", str(doc_counts))
                 with open(doc_name, "+a") as file:
                     file.write("".join(line))
 
-
-    @staticmethod
     # split the xml file into 2 plain text file(source/target)
-    def split_into_src_trg(orig_dir, file_name, temp_dir):
+    def split_into_src_trg(self, file_name):
 
         source, target = [], []
         src_text, trg_text = '', ''
         start_point = ">"
 
-        with open(orig_dir + "xmlfiles_per_doc/" + file_name) as f:
+        with open(join(self.orig_dir, self.name, "xmlfiles_per_doc/" + file_name)) as f:
             for line in f:
                 if line.startswith('(src)'):
                     if src_text == '':  # when it is the starting point of the sentence(or text)
@@ -89,5 +87,5 @@ class NMT_dataset:
                     src_text = ''
                     trg_text = ''
 
-        arr2txt(source[1:], join(temp_dir, file_name, ".de"))
-        arr2txt(target[1:], join(temp_dir, file_name, ".en"))
+        arr2txt(source[1:], join(self.temp_dir, file_name+".de"))
+        arr2txt(target[1:], join(self.temp_dir, file_name+".en"))
