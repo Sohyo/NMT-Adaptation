@@ -68,7 +68,7 @@ def cleanup_datasets(temp_dir, save_dir):
         new_en = []
         for sentences in two_lang_docs:
             if "" not in sentences:
-                if len(sentences[0].split()) > 10 and len(sentences[1].split()) > 10:
+                if len(sentences[0].split()) > 6 and len(sentences[1].split()) > 6:
                     new_de.append(sentences[0])
                     new_en.append(sentences[1])
         arr2txt(new_de, join(save_dir, str(file_num) + ".de"))

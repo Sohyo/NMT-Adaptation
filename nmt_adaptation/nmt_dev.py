@@ -1,8 +1,10 @@
+from os.path import join
+
 class NMT_dev:
     def __init__(self, name="EMEA",
                  src="de", trg="en", n_dev=2000,
-                 data_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/temp_custom_data/",
-                 final_save_dir="/home/diego/Documents/thesis/NMT-Adaptation/data/custom_data/"):
+                 data_dir="../data/temp_custom_data/",
+                 final_save_dir="../data/custom_data/"):
         """
         :param name:
         :param src:
@@ -15,5 +17,5 @@ class NMT_dev:
         self.trg = trg
         self.n_dev = n_dev
         self.name = name
-        self.data_dir = data_dir+name+"/"
-        self.final_save_dir = final_save_dir+name+"/"
+        self.data_dir = join(data_dir, name)
+        self.final_save_dir = join(final_save_dir, name)
