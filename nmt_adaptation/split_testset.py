@@ -1,11 +1,12 @@
-from nmt_adaptation.util import get_sorted_file_list_by_name, arr2txt, rm_dupl_from_list, text2arr
+from nmt_adaptation.util import arr2txt, rm_dupl_from_list, text2arr
 import re
 from os.path import join
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def measure_length_sentences(path_data):
+
+def get_length_sentences_from_file(path_data: dir) -> list:
     length_sentences = []
     with open(join(path_data, "test.de")) as text:
         for sentence in text:
@@ -15,47 +16,72 @@ def measure_length_sentences(path_data):
     return length_sentences
 
 
-def get_src_trg(path_data):
-    src = arr2txt(join(path_data, "test."+"de"))
-    trg = arr2txt(join(path_data, "test."+"de"))
-    return src, trg
+def get_length_sentences_from_array(arr_sentences: list) -> list:
+    length_sentences = []
+    for sentence in arr_sentences:
+        words = sentence.split()
+        length_sentences.append(len(words))
+
+    return length_sentences
 
 
-list_of_data = ['EMEA', 'GNOME', 'JRC']
-root_dir = "../data/custom_data"
-# for data in list_of_data:
-#     list_len_sentence = measure_length_sentences(join(root_dir, data))
-#     counts, bins = np.histogram(list_len_sentence, bins=15, range=(0, 150))
-#     # print(counts)
-#     # print(bins)
-#     short = [sent for sent in list_len_sentence if sent < 10]
-#     middle = [sent for sent in list_len_sentence if 10 <= sent < 20]
-#     long = [sent for sent in list_len_sentence if 20 <= sent]
-#     print(f"short : {len(short)} middle : {len(middle)} long : {len(long)}")
+def split_testset(test_df: object) -> object:
+    short_sentences = test_df.loc[test_df['len_src_sent'] < 10]
+    middle_sentences = test_df.loc[(test_df['len_src_sent'] < 20) & (test_df['len_src_sent'] >= 10)]
+    long_sentences = test_df.loc[test_df['len_src_sent'] >= 20]
+    return short_sentences, middle_sentences, long_sentences
 
 
+def create_new_testset(test_df, root_dir, data_name):
+    short_sentences = test_df.loc[test_df['len_src_sent'] < 10]
+    middle_sentences = test_df.loc[(test_df['len_src_sent'] < 20) & (test_df['len_src_sent'] >= 10)]
+    long_sentences = test_df.loc[test_df['len_src_sent'] >= 20]
 
-name = 'EMEA'
-src = text2arr(join(root_dir, name, "test."+"de"))
-trg = text2arr(join(root_dir, name, "test."+"en"))
-test_EMEA = {
-    "name": 'EMEA',
-    "src": src,
-    "trg": trg
-}
-
-# Combine them
-
-list_len_sentence = measure_length_sentences(join(root_dir, name))
-new = np.column_stack((src, trg, list_len_sentence))
-print()
+    arr2txt(short_sentences['src'], join(root_dir, data_name, "short_test.de"))
+    arr2txt(short_sentences['trg'], join(root_dir, data_name, "short_test.en"))
+    arr2txt(middle_sentences['src'], join(root_dir, data_name, "middle_test.de"))
+    arr2txt(middle_sentences['trg'], join(root_dir, data_name, "middle_test.en"))
+    arr2txt(long_sentences['src'], join(root_dir, data_name, "long_test.de"))
+    arr2txt(long_sentences['trg'], join(root_dir, data_name, "long_test.en"))
 
 
-# short = [sent for  in new if sent < 10]
-# print(f"short : {len(short)}")
-# middle = [sent for sent in list_len_sentence if 10 <= sent < 20]
-# long = [sent for sent in list_len_sentence if 20 <= sent]
-# print(f"short : {len(short)} middle : {len(middle)} long : {len(long)}")
+def create_test_dict(root_dir: dir, data_name: str) -> dict:
+
+    # Get each source and target sentences from the testset file.
+    source = text2arr(join(root_dir, data_name, "test." + "de"))
+    target = text2arr(join(root_dir, data_name, "test." + "en"))
+
+    # Count all of source(German) sentence lengths.
+    list_len_sentence = get_length_sentences_from_file(join(root_dir, data_name))
+
+    # With all the information, create testset dictionary
+    test_dict = {
+        "name": data_name,
+        "src": source,
+        "trg": target,
+        "len_src_sent": list_len_sentence
+    }
+    return test_dict
+
+
+def main():
+
+    root_dir = "../data/custom_data"
+
+    test_GNOME_dict = create_test_dict(root_dir=root_dir, data_name='GNOME')
+    test_EMEA_dict = create_test_dict(root_dir=root_dir, data_name='EMEA')
+    test_JRC_dict = create_test_dict(root_dir=root_dir, data_name='JRC')
+
+    emea_df = pd.DataFrame(test_EMEA_dict)
+    gnome_df = pd.DataFrame(test_GNOME_dict)
+    jrc_df = pd.DataFrame(test_JRC_dict)
+
+    create_new_testset(test_df=emea_df, root_dir=root_dir, data_name="EMEA")
+    create_new_testset(test_df=gnome_df, root_dir=root_dir, data_name="GNOME")
+    create_new_testset(test_df=jrc_df, root_dir=root_dir, data_name="JRC")
+
+
+main()
 
 
 #### PLOT ####
