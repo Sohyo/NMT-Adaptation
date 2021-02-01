@@ -38,7 +38,6 @@ class NMT_dataset:
                     english_docs_list.append(line)
         return german_docs_list, english_docs_list
 
-
     def split_into_each_docs(self):
 
         """

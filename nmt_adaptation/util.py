@@ -4,6 +4,7 @@ from numpy import column_stack
 import re
 import numpy as np
 
+
 def get_sorted_file_list_by_size(files_path):
     file_list = [f for f in listdir(files_path) if isfile(join(files_path, f))]
     file_list.sort(key=lambda filename: getsize(join(files_path, filename)), reverse=True)
@@ -48,6 +49,7 @@ def adjust_length_2docs(arr_de, arr_en):
     else:
         doc_length = min(len(arr_de), len(arr_en))
         return arr_de[:doc_length], arr_en[:doc_length]
+
 
 def cleanup_datasets(temp_dir, save_dir):
     # First, get sorted every file names from 'temp_dir'

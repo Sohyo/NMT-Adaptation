@@ -17,6 +17,7 @@ Preprocess steps are like below:
 
 '''
 
+
 def get_dataset_new(language, temp_dir, save_dir, doc_list, doc_in_datasets, n_data, name_data):
     sentences_arr = []
     temp_doc_in_datasets = []

@@ -80,24 +80,25 @@ def main():
     create_new_testset(test_df=gnome_df, root_dir=root_dir, data_name="GNOME")
     create_new_testset(test_df=jrc_df, root_dir=root_dir, data_name="JRC")
 
+    list_of_data = ['EMEA', 'GNOME', 'JRC']
+    for data in list_of_data:
+        list_len_sentence = get_length_sentences_from_file(join(root_dir, data))
+        counts, bins = np.histogram(list_len_sentence, bins=10, range=(0, 150))
+        print(f'{data} ->')
+        print(f'counts :{counts}')
+        print(f'bins : {bins}')
+        print(f'max : {max(list_len_sentence)}')
+
+        plt.hist(list_len_sentence, bins=100)
+        # plt.axis([0, 140, 0, 250])
+        # axis([xmin,xmax,ymin,ymax])
+        plt.title(data)
+        plt.ylabel('Counts')
+        plt.xlabel('Length of sentence')
+        plt.show()
+
 
 main()
 
 
 #### PLOT ####
-
-# for data in list_of_data:
-#     list_len_sentence = measure_length_sentences(join(root_dir, data))
-#     counts, bins = np.histogram(list_len_sentence, bins=10, range=(0, 150))
-#     print(f'{data} ->')
-#     print(f'counts :{counts}')
-#     print(f'bins : {bins}')
-#     print(f'max : {max(list_len_sentence)}')
-#
-#     plt.hist(list_len_sentence, bins=100)
-#     # plt.axis([0, 140, 0, 250])
-#     # axis([xmin,xmax,ymin,ymax])
-#     plt.title(data)
-#     plt.ylabel('Counts')
-#     plt.xlabel('Length of sentence')
-#     plt.show()
