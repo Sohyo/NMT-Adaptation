@@ -1,0 +1,28 @@
+from nmt_adaptation.util import text2arr
+import os
+
+
+root_dir = "../data/data/"
+file_name = "train (2)" \
+            ""
+langs = ["de", "en"]
+
+
+for lang in langs:
+    count = 0
+    # arr_trainset = text2arr(os.path.join(root_dir, f"{file_name}.{lang}"))
+    with open(os.path.join(root_dir, f"{file_name}.{lang}")) as f:
+        # arr_from_text = [line.rstrip() for line in f]
+        # for line in f:
+        #     count += len(line.split(' '))
+        #      # unique = list(set(line.split()))
+
+
+        whole_text = f.read()
+        # print(whole_text.split(' '))
+        # print(type(whole_text))
+        print(len(whole_text.split(' ')))
+        unique = list(set(whole_text.split()))
+
+        print(f"unique : {len(unique)}")
+
